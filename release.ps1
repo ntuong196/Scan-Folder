@@ -1,5 +1,4 @@
-﻿#Open shell on current folder
-#Get current .net version used
+﻿ni#Get current .net version used
 $PSVersionTable.CLRVersion
 
 #Define var
@@ -24,7 +23,7 @@ if ($null -eq $scanFolder){
 
 Try {
         Write-Host "Scan $scanFolder STARTED" -foregroundcolor Green
-	    Get-AlphaFSChildItem -path $scanFolder -recurse | select-object FileName, FullPath, Fullsize, CreationTime, LastWriteTime | export-csv -notypeinformation -delimiter '|' -path "$PSScriptRoot\output.csv"
+	    Get-AlphaFSChildItem -path $scanFolder -recurse | select-object FileName, FullPath, Filesize, CreationTime, LastWriteTime | export-csv -notypeinformation -delimiter '|' -path "$PSScriptRoot\output.csv"
         Write-Host "Scan $scanFolder COMPLETED and EXPORTED!" -foregroundcolor Yellow
 	}
 Catch [System.UnauthorizedAccessException] {

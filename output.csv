@@ -1,443 +1,546 @@
-"FileName"|"FullPath"|"Fullsize"|"CreationTime"|"LastWriteTime"
-"Create_Client_Site.ps1"|"C:\C@d3\Fields Client Site Creation\Create_Client_Site.ps1"||"29/06/2020 1:35:34 AM"|"2/07/2020 2:12:29 PM"
-"FIELDSTemplate.pnp"|"C:\C@d3\Fields Client Site Creation\FIELDSTemplate.pnp"||"28/06/2020 9:01:22 AM"|"1/07/2020 11:56:18 AM"
-"README.md"|"C:\C@d3\Fields Client Site Creation\README.md"||"1/07/2020 2:03:12 PM"|"2/07/2020 2:09:24 PM"
-"remove.ps1"|"C:\C@d3\Fields Client Site Creation\remove.ps1"||"2/07/2020 11:41:03 AM"|"2/07/2020 11:50:29 AM"
-"testParams.json"|"C:\C@d3\Fields Client Site Creation\testParams.json"||"1/07/2020 4:17:59 PM"|"1/07/2020 4:19:44 PM"
-"Trigger_Script.ps1"|"C:\C@d3\Fields Client Site Creation\Trigger_Script.ps1"||"1/07/2020 4:23:08 PM"|"2/07/2020 9:50:51 AM"
-"Get-AlphaFSChildItem.ps1"|"C:\C@d3\ScanFolder\Get-AlphaFSChildItem.ps1"||"3/07/2020 10:12:56 AM"|"3/07/2020 12:07:54 PM"
-"output.csv"|"C:\C@d3\ScanFolder\output.csv"||"3/07/2020 1:54:58 PM"|"3/07/2020 1:55:12 PM"
-"release.ps1"|"C:\C@d3\ScanFolder\release.ps1"||"3/07/2020 12:11:52 PM"|"3/07/2020 1:54:53 PM"
-"ScanJob.ps1"|"C:\C@d3\ScanFolder\ScanJob.ps1"||"3/07/2020 10:17:27 AM"|"3/07/2020 12:43:06 PM"
-"COMMIT_EDITMSG"|"C:\C@d3\Fields Client Site Creation\.git\COMMIT_EDITMSG"||"2/07/2020 9:56:50 AM"|"2/07/2020 2:55:30 PM"
-"config"|"C:\C@d3\Fields Client Site Creation\.git\config"||"2/07/2020 9:59:31 AM"|"2/07/2020 9:59:43 AM"
-"description"|"C:\C@d3\Fields Client Site Creation\.git\description"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"HEAD"|"C:\C@d3\Fields Client Site Creation\.git\HEAD"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"index"|"C:\C@d3\Fields Client Site Creation\.git\index"||"2/07/2020 2:55:30 PM"|"2/07/2020 2:55:30 PM"
-"AlphaFS.2.2.6.0.chm"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\AlphaFS.2.2.6.0.chm"||"18/08/2018 6:39:12 PM"|"3/07/2020 10:28:17 AM"
-"CHANGELOG.md"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\CHANGELOG.md"||"18/08/2018 6:26:30 PM"|"3/07/2020 10:28:17 AM"
-"LICENSE.md"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\LICENSE.md"||"9/05/2018 7:12:40 PM"|"3/07/2020 10:28:17 AM"
-"README.md"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\README.md"||"18/08/2018 6:26:30 PM"|"3/07/2020 10:28:17 AM"
-"applypatch-msg.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\applypatch-msg.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"commit-msg.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\commit-msg.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"fsmonitor-watchman.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\fsmonitor-watchman.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"post-update.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\post-update.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"pre-applypatch.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\pre-applypatch.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"pre-commit.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\pre-commit.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"pre-merge-commit.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\pre-merge-commit.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"pre-push.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\pre-push.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"pre-rebase.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\pre-rebase.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"pre-receive.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\pre-receive.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"prepare-commit-msg.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\prepare-commit-msg.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"update.sample"|"C:\C@d3\Fields Client Site Creation\.git\hooks\update.sample"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"exclude"|"C:\C@d3\Fields Client Site Creation\.git\info\exclude"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"HEAD"|"C:\C@d3\Fields Client Site Creation\.git\logs\HEAD"||"2/07/2020 9:56:50 AM"|"2/07/2020 2:55:30 PM"
-"appsettings.Development.json"|"C:\C@d3\HeadStart\API\SyncAPI\appsettings.Development.json"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"appsettings.json"|"C:\C@d3\HeadStart\API\SyncAPI\appsettings.json"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"Program.cs"|"C:\C@d3\HeadStart\API\SyncAPI\Program.cs"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"Startup.cs"|"C:\C@d3\HeadStart\API\SyncAPI\Startup.cs"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"SyncAPI.csproj"|"C:\C@d3\HeadStart\API\SyncAPI\SyncAPI.csproj"||"1/07/2020 11:20:52 AM"|"3/07/2020 9:45:10 AM"
-"SyncAPI.sln"|"C:\C@d3\HeadStart\API\SyncAPI\SyncAPI.sln"||"3/07/2020 10:02:41 AM"|"3/07/2020 10:02:41 AM"
-"WeatherForecast.cs"|"C:\C@d3\HeadStart\API\SyncAPI\WeatherForecast.cs"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"ad9646d1aefeec20a837708caa8c4b28fd8313"|"C:\C@d3\Fields Client Site Creation\.git\objects\01\ad9646d1aefeec20a837708caa8c4b28fd8313"||"2/07/2020 9:56:50 AM"|"2/07/2020 9:56:50 AM"
-"9a7415f0e23399b83e2bd2ea707bd3f40d0be3"|"C:\C@d3\Fields Client Site Creation\.git\objects\0b\9a7415f0e23399b83e2bd2ea707bd3f40d0be3"||"2/07/2020 2:54:39 PM"|"2/07/2020 2:54:39 PM"
-"b0b9c73a8e3888e7396345993dbdbe42844375"|"C:\C@d3\Fields Client Site Creation\.git\objects\1b\b0b9c73a8e3888e7396345993dbdbe42844375"||"2/07/2020 2:55:30 PM"|"2/07/2020 2:55:30 PM"
-"d124f1c76a75ceb0f607792b9a18637c094682"|"C:\C@d3\Fields Client Site Creation\.git\objects\40\d124f1c76a75ceb0f607792b9a18637c094682"||"2/07/2020 2:54:39 PM"|"2/07/2020 2:54:39 PM"
-"2cb22f21d5cac16fd622703ec21255e1ba6264"|"C:\C@d3\Fields Client Site Creation\.git\objects\43\2cb22f21d5cac16fd622703ec21255e1ba6264"||"2/07/2020 9:56:50 AM"|"2/07/2020 9:56:50 AM"
-"c60e580f68dca74dd1250ec76f3d0a4c0210d0"|"C:\C@d3\Fields Client Site Creation\.git\objects\47\c60e580f68dca74dd1250ec76f3d0a4c0210d0"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"38c52f42758d0ab19171db71216d0b83e78592"|"C:\C@d3\Fields Client Site Creation\.git\objects\50\38c52f42758d0ab19171db71216d0b83e78592"||"2/07/2020 2:54:39 PM"|"2/07/2020 2:54:39 PM"
-"7f14be5a777b5552d3acf1f5356be404f32e9f"|"C:\C@d3\Fields Client Site Creation\.git\objects\53\7f14be5a777b5552d3acf1f5356be404f32e9f"||"2/07/2020 9:52:41 AM"|"2/07/2020 2:54:39 PM"
-"7c4157d2b279e5dbf0d72238a462169972ad07"|"C:\C@d3\Fields Client Site Creation\.git\objects\8e\7c4157d2b279e5dbf0d72238a462169972ad07"||"2/07/2020 2:55:30 PM"|"2/07/2020 2:55:30 PM"
-"461a7fc0b71a8771cf178588292c62156633b5"|"C:\C@d3\Fields Client Site Creation\.git\objects\b4\461a7fc0b71a8771cf178588292c62156633b5"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"c5776301cd9797f2be9605e26407c7953b2715"|"C:\C@d3\Fields Client Site Creation\.git\objects\c3\c5776301cd9797f2be9605e26407c7953b2715"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"d471d61903ee7fe0b9b6f929811a4e158d8b9d"|"C:\C@d3\Fields Client Site Creation\.git\objects\f3\d471d61903ee7fe0b9b6f929811a4e158d8b9d"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"master"|"C:\C@d3\Fields Client Site Creation\.git\refs\heads\master"||"2/07/2020 2:55:30 PM"|"2/07/2020 2:55:30 PM"
-"COMMIT_EDITMSG"|"C:\C@d3\HeadStart\API\SyncAPI\.git\COMMIT_EDITMSG"||"1/07/2020 1:14:48 PM"|"1/07/2020 1:15:16 PM"
-"config"|"C:\C@d3\HeadStart\API\SyncAPI\.git\config"||"1/07/2020 1:17:01 PM"|"1/07/2020 1:17:01 PM"
-"description"|"C:\C@d3\HeadStart\API\SyncAPI\.git\description"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"HEAD"|"C:\C@d3\HeadStart\API\SyncAPI\.git\HEAD"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"index"|"C:\C@d3\HeadStart\API\SyncAPI\.git\index"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:16 PM"
-"slnx.sqlite"|"C:\C@d3\HeadStart\API\SyncAPI\.vs\slnx.sqlite"||"3/07/2020 10:01:29 AM"|"3/07/2020 10:02:42 AM"
-"VSWorkspaceState.json"|"C:\C@d3\HeadStart\API\SyncAPI\.vs\VSWorkspaceState.json"||"3/07/2020 10:02:42 AM"|"3/07/2020 10:02:42 AM"
-"launch.json"|"C:\C@d3\HeadStart\API\SyncAPI\.vscode\launch.json"||"1/07/2020 1:17:56 PM"|"1/07/2020 1:17:56 PM"
-"tasks.json"|"C:\C@d3\HeadStart\API\SyncAPI\.vscode\tasks.json"||"1/07/2020 1:17:56 PM"|"1/07/2020 1:17:56 PM"
-"WeatherForecastController.cs"|"C:\C@d3\HeadStart\API\SyncAPI\Controllers\WeatherForecastController.cs"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"project.assets.json"|"C:\C@d3\HeadStart\API\SyncAPI\obj\project.assets.json"||"1/07/2020 11:20:53 AM"|"3/07/2020 9:44:02 AM"
-"project.nuget.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\project.nuget.cache"||"1/07/2020 11:20:53 AM"|"3/07/2020 9:44:02 AM"
-"SyncAPI.csproj.nuget.dgspec.json"|"C:\C@d3\HeadStart\API\SyncAPI\obj\SyncAPI.csproj.nuget.dgspec.json"||"1/07/2020 11:20:53 AM"|"3/07/2020 9:44:02 AM"
-"SyncAPI.csproj.nuget.g.props"|"C:\C@d3\HeadStart\API\SyncAPI\obj\SyncAPI.csproj.nuget.g.props"||"1/07/2020 11:20:53 AM"|"1/07/2020 11:20:53 AM"
-"SyncAPI.csproj.nuget.g.targets"|"C:\C@d3\HeadStart\API\SyncAPI\obj\SyncAPI.csproj.nuget.g.targets"||"1/07/2020 11:20:53 AM"|"1/07/2020 11:20:53 AM"
-"launchSettings.json"|"C:\C@d3\HeadStart\API\SyncAPI\Properties\launchSettings.json"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"AlphaFS.dll"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35\AlphaFS.dll"||"18/08/2018 6:35:14 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.pdb"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35\AlphaFS.pdb"||"18/08/2018 6:35:14 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.xml"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35\AlphaFS.xml"||"18/08/2018 6:35:12 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.dll"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40\AlphaFS.dll"||"18/08/2018 6:35:26 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.pdb"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40\AlphaFS.pdb"||"18/08/2018 6:35:26 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.xml"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40\AlphaFS.xml"||"18/08/2018 6:35:26 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.dll"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45\AlphaFS.dll"||"18/08/2018 6:35:40 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.pdb"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45\AlphaFS.pdb"||"18/08/2018 6:35:40 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.xml"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45\AlphaFS.xml"||"18/08/2018 6:35:40 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.dll"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451\AlphaFS.dll"||"18/08/2018 6:35:52 PM"|"3/07/2020 10:28:16 AM"
-"AlphaFS.pdb"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451\AlphaFS.pdb"||"18/08/2018 6:35:52 PM"|"3/07/2020 10:28:17 AM"
-"AlphaFS.xml"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451\AlphaFS.xml"||"18/08/2018 6:35:52 PM"|"3/07/2020 10:28:17 AM"
-"AlphaFS.dll"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452\AlphaFS.dll"||"18/08/2018 6:36:04 PM"|"3/07/2020 10:28:17 AM"
-"AlphaFS.pdb"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452\AlphaFS.pdb"||"18/08/2018 6:36:04 PM"|"3/07/2020 10:28:17 AM"
-"AlphaFS.xml"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452\AlphaFS.xml"||"18/08/2018 6:36:04 PM"|"3/07/2020 10:28:17 AM"
-"testfile.txt"|"C:\C@d3\ScanFolder\TestFolder\Ch1\SubCh1\testfile.txt"||"3/07/2020 11:33:13 AM"|"3/07/2020 11:33:13 AM"
-"master"|"C:\C@d3\Fields Client Site Creation\.git\logs\refs\heads\master"||"2/07/2020 9:56:50 AM"|"2/07/2020 2:55:30 PM"
-"master"|"C:\C@d3\Fields Client Site Creation\.git\refs\remotes\origin\master"||"2/07/2020 2:55:45 PM"|"2/07/2020 2:55:45 PM"
-"applypatch-msg.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\applypatch-msg.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"commit-msg.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\commit-msg.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"fsmonitor-watchman.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\fsmonitor-watchman.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"post-update.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\post-update.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"pre-applypatch.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-applypatch.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"pre-commit.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-commit.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"pre-merge-commit.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-merge-commit.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"pre-push.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-push.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"pre-rebase.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-rebase.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"pre-receive.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-receive.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"prepare-commit-msg.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\prepare-commit-msg.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"update.sample"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\update.sample"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"exclude"|"C:\C@d3\HeadStart\API\SyncAPI\.git\info\exclude"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"HEAD"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs\HEAD"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"master"|"C:\C@d3\Fields Client Site Creation\.git\logs\refs\remotes\origin\master"||"2/07/2020 9:59:43 AM"|"2/07/2020 2:55:45 PM"
-"025001b7992934ead9bdcc73b5888a47ec3ebd"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\03\025001b7992934ead9bdcc73b5888a47ec3ebd"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"ade12c64c8ed36d3591f8e33524a2ce68c17f1"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\07\ade12c64c8ed36d3591f8e33524a2ce68c17f1"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"8358a963fab49af9a0ad1288ea6ff1453b9759"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\08\8358a963fab49af9a0ad1288ea6ff1453b9759"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"acb87105cee208d8fa6a9fc8b535e64c9bfb31"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0b\acb87105cee208d8fa6a9fc8b535e64c9bfb31"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"6910ead8ec49b04cb9c7892907a2681bd8cb8e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0d\6910ead8ec49b04cb9c7892907a2681bd8cb8e"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"f0a047684635e804b61a130cf7015a3fa57148"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0d\f0a047684635e804b61a130cf7015a3fa57148"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"0f49141b7010c56e14ac242bf3742e8981f452"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\14\0f49141b7010c56e14ac242bf3742e8981f452"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"d29c9813a51231a4a47e9f3ccd1be25bbeb46d"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\19\d29c9813a51231a4a47e9f3ccd1be25bbeb46d"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"61b88aa8e37c4d6c1c9fb20e82cc205239e2c1"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\1e\61b88aa8e37c4d6c1c9fb20e82cc205239e2c1"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"a325c1abe08b2104e4a29dede3f2020147cc3b"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\25\a325c1abe08b2104e4a29dede3f2020147cc3b"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"15eea89a7faef180b33668191fdd8aaafd64a2"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\27\15eea89a7faef180b33668191fdd8aaafd64a2"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"8fb3793970cd4ba39adc46ec85ee5b2a2b1eb6"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\30\8fb3793970cd4ba39adc46ec85ee5b2a2b1eb6"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"245c63c678740991ba724645a061e765436110"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\32\245c63c678740991ba724645a061e765436110"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"bfeb915b634b699bad5ed877577a762230ca92"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\33\bfeb915b634b699bad5ed877577a762230ca92"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"52295e004660012a3490489697ccd5bf8d4f21"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\34\52295e004660012a3490489697ccd5bf8d4f21"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"bedab819ef1631d37d6e87ef9a716c545a105e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\34\bedab819ef1631d37d6e87ef9a716c545a105e"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"077cd8e6d81906e3f514da1d53a1b30b3244f5"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\37\077cd8e6d81906e3f514da1d53a1b30b3244f5"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"968acb674f01027b56ce672ff0186e82a51398"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3e\968acb674f01027b56ce672ff0186e82a51398"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"bfa649d26c32e39ab77230b2991ecf228f315d"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3e\bfa649d26c32e39ab77230b2991ecf228f315d"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"eb9f938dcfab415422f844fc023266d10bc2be"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3f\eb9f938dcfab415422f844fc023266d10bc2be"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"78067772df4dd5cff8d9116f566219f062a410"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\41\78067772df4dd5cff8d9116f566219f062a410"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"52ecd8fade48b8c8f03feb809182ea21778808"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\47\52ecd8fade48b8c8f03feb809182ea21778808"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"3a31b85916e50c70e1c611f0d2ff914a3fc0a8"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4a\3a31b85916e50c70e1c611f0d2ff914a3fc0a8"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"825dc642cb6eb9a060e54bf8d69288fbee4904"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4b\825dc642cb6eb9a060e54bf8d69288fbee4904"||"1/07/2020 1:14:48 PM"|"1/07/2020 1:14:48 PM"
-"9a074f8f22aaf7a7d83b14eaac405c8895226a"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4e\9a074f8f22aaf7a7d83b14eaac405c8895226a"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"b80addc30a8dd777ad86d2a069d1ff1ffad836"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\50\b80addc30a8dd777ad86d2a069d1ff1ffad836"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"9eec804a7a5d6633725d9feef67d32a9acea01"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\51\9eec804a7a5d6633725d9feef67d32a9acea01"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"cfaa19b16f3769b2bfc33db3b5c0053c16fdba"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\53\cfaa19b16f3769b2bfc33db3b5c0053c16fdba"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"27f24307cd62afb14112da06a91c225ec37227"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\54\27f24307cd62afb14112da06a91c225ec37227"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"2c9b9b68f27b76bf61ad6fab1e38924fe70bdd"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\56\2c9b9b68f27b76bf61ad6fab1e38924fe70bdd"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"c739d0e06fd431993048ad57ccb596d98abb77"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\59\c739d0e06fd431993048ad57ccb596d98abb77"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"96a642c309bb1688ce27f2396d09416a662314"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5a\96a642c309bb1688ce27f2396d09416a662314"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"c5d3927d0ce76b47491f0e70da386d044bb739"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5b\c5d3927d0ce76b47491f0e70da386d044bb739"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"c21acbfc299668092f81b0d66fa9691eb4a45e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5f\c21acbfc299668092f81b0d66fa9691eb4a45e"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"54b34f013eae16c5fd13ecd92950adf0dd546c"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\62\54b34f013eae16c5fd13ecd92950adf0dd546c"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"f52048f1001b26d0170aaf7074e9a781d55113"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6a\f52048f1001b26d0170aaf7074e9a781d55113"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"74736a0faadb465e40a729f535386666ed86e6"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6b\74736a0faadb465e40a729f535386666ed86e6"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"e1e9494f6b7dd8212d85f9df4e965e98dd9eda"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6b\e1e9494f6b7dd8212d85f9df4e965e98dd9eda"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"91be4b75420a3a710be3c5cbb743182da26dcf"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6c\91be4b75420a3a710be3c5cbb743182da26dcf"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"749daca3b7e9a23f142572dbd51be3348be9ff"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6d\749daca3b7e9a23f142572dbd51be3348be9ff"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"536ac4f29897fb42621113cab9c19675147c73"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\73\536ac4f29897fb42621113cab9c19675147c73"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"973d5873b49eb56e5531d8be6a81f519b432ff"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\77\973d5873b49eb56e5531d8be6a81f519b432ff"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"9ded874111f33da8eb836fb498d76b1a19b6da"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\77\9ded874111f33da8eb836fb498d76b1a19b6da"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"21d22ff436786dae893f63a86622f2b144a6d2"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7b\21d22ff436786dae893f63a86622f2b144a6d2"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"8f9d86c86982a7da8b53e85eee1b24dc117f51"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7b\8f9d86c86982a7da8b53e85eee1b24dc117f51"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"0b114d665b65001c029b7e75f911acea06323f"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7d\0b114d665b65001c029b7e75f911acea06323f"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"37e85a60ff740ee4e1b27786c826ae83563896"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7f\37e85a60ff740ee4e1b27786c826ae83563896"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"e2357dd4bed707487965e2a3eb0081dd53da0a"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\80\e2357dd4bed707487965e2a3eb0081dd53da0a"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"20ba3fe49619f5520dfb258324bc7a5d347960"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\82\20ba3fe49619f5520dfb258324bc7a5d347960"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"a8b8dbe3f495f9aba27f4bcdbcdce1080c9853"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\84\a8b8dbe3f495f9aba27f4bcdbcdce1080c9853"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"83e0fc1c5e2795ccfde0c771c6d66c88ef4a42"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\89\83e0fc1c5e2795ccfde0c771c6d66c88ef4a42"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"8ba735bb4f3588d59bffc85d2716cf54edf462"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\8f\8ba735bb4f3588d59bffc85d2716cf54edf462"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"4f861b8a9a791345812f086f1255331c5f6abb"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9a\4f861b8a9a791345812f086f1255331c5f6abb"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"6b78f90f811f513d99a06118b3a12ec61fad91"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9e\6b78f90f811f513d99a06118b3a12ec61fad91"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"08f425b8d7005ce614f783a2b1e06c80c803c2"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a5\08f425b8d7005ce614f783a2b1e06c80c803c2"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"b7ff99a28fe128bc3cf25b7247e8b6d2e67914"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a5\b7ff99a28fe128bc3cf25b7247e8b6d2e67914"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"4e35fd7230f6f8b07a324bb10a56df9f2d1049"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a9\4e35fd7230f6f8b07a324bb10a56df9f2d1049"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"9171dfe819730af5f39ffab49eb3c409163c2e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ab\9171dfe819730af5f39ffab49eb3c409163c2e"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"8dfe1a6310302587a2d0c0111d81b250eb4105"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ad\8dfe1a6310302587a2d0c0111d81b250eb4105"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"991b266097b5f85af9757dd32fe5e55e04e928"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ae\991b266097b5f85af9757dd32fe5e55e04e928"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"e22b117cc860fe7765a89d58a9f83e4e27657a"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\af\e22b117cc860fe7765a89d58a9f83e4e27657a"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"6ed9c722d355680529e15cd61055ccf8e8cbad"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b0\6ed9c722d355680529e15cd61055ccf8e8cbad"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"f40a3ecddfe7f40937cfe48b7cc55f6da4adc9"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b3\f40a3ecddfe7f40937cfe48b7cc55f6da4adc9"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"8e1b547f1828d06ab53a27c995649fd3055340"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b7\8e1b547f1828d06ab53a27c995649fd3055340"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"c2778ac6fcae895d52c3b67ce5fca135ee58ca"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ba\c2778ac6fcae895d52c3b67ce5fca135ee58ca"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"da33aa0bb8864970ba36958b830e1666e1d1c1"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bb\da33aa0bb8864970ba36958b830e1666e1d1c1"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"29e5e79c20cefbf53682092a79705f1e25a00e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bc\29e5e79c20cefbf53682092a79705f1e25a00e"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"a07c2200bcca3cedd1557b6f1037a77e828bc0"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bd\a07c2200bcca3cedd1557b6f1037a77e828bc0"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"889b5a91045c0ac91f7cdfa93e38abaed25750"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c0\889b5a91045c0ac91f7cdfa93e38abaed25750"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"a05a5bcca3694a6c95c3bf2c31a625020351b3"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c1\a05a5bcca3694a6c95c3bf2c31a625020351b3"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"fdd7b1cce0d18535b39b46ab5171109786a68d"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c7\fdd7b1cce0d18535b39b46ab5171109786a68d"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"f2bb16d53b6e9e3c125f031f9713e8aba99dae"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\cc\f2bb16d53b6e9e3c125f031f9713e8aba99dae"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"1f0d5d5af380e9b19fb9d09538437806263d79"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ce\1f0d5d5af380e9b19fb9d09538437806263d79"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"b68d29fdcfffd65f1dfe4ea3e6122c19917456"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d2\b68d29fdcfffd65f1dfe4ea3e6122c19917456"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"ce3f079161d45a218b2504bc6252a291cccc31"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d4\ce3f079161d45a218b2504bc6252a291cccc31"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"c87a773322d264dfc73f031d1cb87630b4aaf1"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d5\c87a773322d264dfc73f031d1cb87630b4aaf1"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"d9a9bff6fd6f3ee7ea00de958f135a4a28c6e6"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d9\d9a9bff6fd6f3ee7ea00de958f135a4a28c6e6"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"e513b19a3d70bf0f5c03a0b31189bda990b377"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dc\e513b19a3d70bf0f5c03a0b31189bda990b377"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"c808a6c6c1edfae30bd8f36f6958e67168b69f"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dd\c808a6c6c1edfae30bd8f36f6958e67168b69f"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"897691fc7bd409972157060327914c8b4a75e3"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\df\897691fc7bd409972157060327914c8b4a75e3"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"8491e57679a0ec458f142c7211587de7a407dd"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e4\8491e57679a0ec458f142c7211587de7a407dd"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"400386edae4c86df65459c5dc7f8a9512c89b9"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e5\400386edae4c86df65459c5dc7f8a9512c89b9"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"7fb59fe7ac605f034b6c9d8a471f1a21e1d252"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e5\7fb59fe7ac605f034b6c9d8a471f1a21e1d252"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"6b1edbd91533615c0f246de02be9f66402c3af"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e6\6b1edbd91533615c0f246de02be9f66402c3af"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"9de29bb2d1d6434b8b29ae775ad8c2e48c5391"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"7b0aca64c9922aa3b75de03a626425b8107f9f"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ef\7b0aca64c9922aa3b75de03a626425b8107f9f"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"3cdb9ab75e59acdca71b46fdf14ac4f7362ae9"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f2\3cdb9ab75e59acdca71b46fdf14ac4f7362ae9"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"72a282488211ea5b7809e3b33c0c36c0eb6515"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f4\72a282488211ea5b7809e3b33c0c36c0eb6515"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"f4501dedba8adeb6de734adc0567fa18d4adaf"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f4\f4501dedba8adeb6de734adc0567fa18d4adaf"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"717c8e989364d5f3220edd9ea5e757f967ae92"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f8\717c8e989364d5f3220edd9ea5e757f967ae92"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"dcae5da0570cfad5dfdc2c164039165c9e4216"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fc\dcae5da0570cfad5dfdc2c164039165c9e4216"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"b8f1fabf13fec9ad2bd73f67198cbedbc6ef52"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fd\b8f1fabf13fec9ad2bd73f67198cbedbc6ef52"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"master"|"C:\C@d3\HeadStart\API\SyncAPI\.git\refs\heads\master"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"applicationhost.config"|"C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\config\applicationhost.config"||"3/07/2020 9:45:13 AM"|"3/07/2020 9:45:13 AM"
-".suo"|"C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\v16\.suo"||"3/07/2020 10:02:20 AM"|"3/07/2020 10:02:42 AM"
-"appsettings.Development.json"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:20:52 AM"
-"appsettings.json"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\appsettings.json"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:20:52 AM"
-"Microsoft.Bcl.AsyncInterfaces.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll"||"1/07/2020 11:34:20 AM"|"14/04/2020 10:39:12 PM"
-"Microsoft.Bcl.HashCode.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll"||"1/07/2020 11:34:20 AM"|"15/11/2019 8:38:50 AM"
-"Microsoft.Data.SqlClient.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll"||"1/07/2020 11:34:20 AM"|"26/09/2019 8:43:28 PM"
-"Microsoft.EntityFrameworkCore.Abstractions.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll"||"1/07/2020 11:34:20 AM"|"21/05/2020 2:30:50 AM"
-"Microsoft.EntityFrameworkCore.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll"||"1/07/2020 11:34:20 AM"|"21/05/2020 2:31:04 AM"
-"Microsoft.EntityFrameworkCore.InMemory.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll"||"1/07/2020 11:34:20 AM"|"21/05/2020 2:31:08 AM"
-"Microsoft.EntityFrameworkCore.Relational.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll"||"1/07/2020 11:34:20 AM"|"21/05/2020 2:31:16 AM"
-"Microsoft.EntityFrameworkCore.SqlServer.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll"||"1/07/2020 11:34:20 AM"|"21/05/2020 2:31:18 AM"
-"Microsoft.Extensions.Caching.Abstractions.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:55:38 PM"
-"Microsoft.Extensions.Caching.Memory.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:26 PM"
-"Microsoft.Extensions.Configuration.Abstractions.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:55:56 PM"
-"Microsoft.Extensions.Configuration.Binder.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:48 PM"
-"Microsoft.Extensions.Configuration.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:46 PM"
-"Microsoft.Extensions.DependencyInjection.Abstractions.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:12 PM"
-"Microsoft.Extensions.DependencyInjection.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:04 PM"
-"Microsoft.Extensions.Logging.Abstractions.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:52 PM"
-"Microsoft.Extensions.Logging.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:56 PM"
-"Microsoft.Extensions.Options.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:02 PM"
-"Microsoft.Extensions.Primitives.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll"||"1/07/2020 11:34:20 AM"|"20/05/2020 11:56:22 PM"
-"Microsoft.Identity.Client.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll"||"1/07/2020 11:34:20 AM"|"29/04/2019 10:04:14 PM"
-"SyncAPI.deps.json"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.deps.json"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.dll"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.exe"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.exe"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.pdb"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.pdb"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.runtimeconfig.dev.json"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.runtimeconfig.dev.json"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:13 AM"
-"SyncAPI.runtimeconfig.json"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.runtimeconfig.json"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:13 AM"
-"System.Collections.Immutable.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll"||"1/07/2020 11:34:20 AM"|"14/04/2020 10:38:40 PM"
-"System.Configuration.ConfigurationManager.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll"||"1/07/2020 11:34:20 AM"|"15/05/2018 1:29:38 PM"
-"System.Diagnostics.DiagnosticSource.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll"||"1/07/2020 11:34:20 AM"|"14/04/2020 10:48:06 PM"
-"System.Runtime.Caching.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll"||"1/07/2020 11:34:20 AM"|"15/05/2018 1:29:40 PM"
-"System.Security.Cryptography.ProtectedData.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll"||"1/07/2020 11:34:20 AM"|"15/05/2018 1:29:44 PM"
-".NETCoreApp,Version=v3.1.AssemblyAttributes.cs"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs"||"1/07/2020 11:24:18 AM"|"1/07/2020 11:24:18 AM"
-"project.razor.json"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\project.razor.json"||"1/07/2020 11:24:20 AM"|"1/07/2020 1:17:45 PM"
-"SyncAPI.AssemblyInfo.cs"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.AssemblyInfo.cs"||"1/07/2020 11:24:18 AM"|"1/07/2020 11:24:18 AM"
-"SyncAPI.AssemblyInfoInputs.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.AssemblyInfoInputs.cache"||"1/07/2020 11:24:18 AM"|"1/07/2020 11:24:18 AM"
-"SyncAPI.assets.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.assets.cache"||"1/07/2020 11:22:39 AM"|"3/07/2020 9:44:03 AM"
-"SyncAPI.csproj.CopyComplete"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csproj.CopyComplete"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.csproj.CoreCompileInputs.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csproj.CoreCompileInputs.cache"||"1/07/2020 11:34:19 AM"|"1/07/2020 11:34:19 AM"
-"SyncAPI.csproj.FileListAbsolute.txt"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csproj.FileListAbsolute.txt"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:13 AM"
-"SyncAPI.csprojAssemblyReference.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csprojAssemblyReference.cache"||"1/07/2020 11:24:18 AM"|"3/07/2020 10:02:42 AM"
-"SyncAPI.dll"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.dll"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.exe"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.exe"||"3/07/2020 9:45:12 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.genruntimeconfig.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.genruntimeconfig.cache"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"SyncAPI.MvcApplicationPartsAssemblyInfo.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.MvcApplicationPartsAssemblyInfo.cache"||"1/07/2020 11:34:19 AM"|"3/07/2020 9:45:11 AM"
-"SyncAPI.pdb"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.pdb"||"1/07/2020 11:34:20 AM"|"3/07/2020 9:45:12 AM"
-"SyncAPI.RazorTargetAssemblyInfo.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.RazorTargetAssemblyInfo.cache"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-".NETCoreApp,Version=v3.1.AssemblyAttributes.cs"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"SyncAPI.AssemblyInfo.cs"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\SyncAPI.AssemblyInfo.cs"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"SyncAPI.AssemblyInfoInputs.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\SyncAPI.AssemblyInfoInputs.cache"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"SyncAPI.assets.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\SyncAPI.assets.cache"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"master"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\heads\master"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"master"|"C:\C@d3\HeadStart\API\SyncAPI\.git\refs\remotes\origin\master"||"1/07/2020 1:17:01 PM"|"1/07/2020 1:17:01 PM"
-"launchSettings.json"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:20:52 AM"
-"SyncAPI.StaticWebAssets.Manifest.cache"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\staticwebassets\SyncAPI.StaticWebAssets.Manifest.cache"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"SyncAPI.StaticWebAssets.xml"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\staticwebassets\SyncAPI.StaticWebAssets.xml"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"master"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\remotes\origin\master"||"1/07/2020 1:17:01 PM"|"1/07/2020 1:17:01 PM"
-"sni.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll"||"1/07/2020 11:34:20 AM"|"12/07/2017 11:24:24 AM"
-"sni.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll"||"1/07/2020 11:34:20 AM"|"12/07/2017 11:24:22 AM"
-"sni.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll"||"1/07/2020 11:34:20 AM"|"12/07/2017 11:24:22 AM"
-"System.Runtime.Caching.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll"||"1/07/2020 11:34:20 AM"|"15/05/2018 1:29:40 PM"
-"Microsoft.Data.SqlClient.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll"||"1/07/2020 11:34:20 AM"|"26/09/2019 8:43:26 PM"
-"System.Runtime.Caching.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll"||"1/07/2020 11:34:20 AM"|"15/05/2018 1:29:40 PM"
-"Microsoft.Data.SqlClient.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll"||"1/07/2020 11:34:20 AM"|"26/09/2019 8:43:26 PM"
-"System.Security.Cryptography.ProtectedData.dll"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll"||"1/07/2020 11:34:20 AM"|"15/05/2018 1:29:44 PM"
-"Fields Client Site Creation"|"C:\C@d3\Fields Client Site Creation"||"1/07/2020 11:56:18 AM"|"2/07/2020 1:42:15 PM"
-"HeadStart"|"C:\C@d3\HeadStart"||"1/07/2020 11:19:52 AM"|"1/07/2020 11:20:07 AM"
-"ScanFolder"|"C:\C@d3\ScanFolder"||"3/07/2020 10:15:30 AM"|"3/07/2020 1:54:58 PM"
-".git"|"C:\C@d3\Fields Client Site Creation\.git"||"2/07/2020 9:52:35 AM"|"2/07/2020 2:55:30 PM"
-"API"|"C:\C@d3\HeadStart\API"||"1/07/2020 11:20:06 AM"|"1/07/2020 11:20:51 AM"
-"AlphaFS.2.2.6.0"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0"||"3/07/2020 10:28:16 AM"|"3/07/2020 10:28:17 AM"
-"TestFolder"|"C:\C@d3\ScanFolder\TestFolder"||"3/07/2020 10:22:29 AM"|"3/07/2020 10:22:48 AM"
-"hooks"|"C:\C@d3\Fields Client Site Creation\.git\hooks"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"info"|"C:\C@d3\Fields Client Site Creation\.git\info"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"logs"|"C:\C@d3\Fields Client Site Creation\.git\logs"||"2/07/2020 9:56:50 AM"|"2/07/2020 9:56:50 AM"
-"objects"|"C:\C@d3\Fields Client Site Creation\.git\objects"||"2/07/2020 9:52:35 AM"|"2/07/2020 2:55:30 PM"
-"refs"|"C:\C@d3\Fields Client Site Creation\.git\refs"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:59:43 AM"
-"SyncAPI"|"C:\C@d3\HeadStart\API\SyncAPI"||"1/07/2020 11:20:51 AM"|"3/07/2020 10:02:41 AM"
-"Lib"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib"||"3/07/2020 10:28:16 AM"|"3/07/2020 10:28:17 AM"
-"Ch1"|"C:\C@d3\ScanFolder\TestFolder\Ch1"||"3/07/2020 10:22:39 AM"|"3/07/2020 10:23:00 AM"
-"Ch2"|"C:\C@d3\ScanFolder\TestFolder\Ch2"||"3/07/2020 10:22:45 AM"|"3/07/2020 10:22:45 AM"
-"refs"|"C:\C@d3\Fields Client Site Creation\.git\logs\refs"||"2/07/2020 9:56:50 AM"|"2/07/2020 9:59:43 AM"
-"01"|"C:\C@d3\Fields Client Site Creation\.git\objects\01"||"2/07/2020 9:56:50 AM"|"2/07/2020 9:56:50 AM"
-"0b"|"C:\C@d3\Fields Client Site Creation\.git\objects\0b"||"2/07/2020 2:54:39 PM"|"2/07/2020 2:54:39 PM"
-"1b"|"C:\C@d3\Fields Client Site Creation\.git\objects\1b"||"2/07/2020 2:55:30 PM"|"2/07/2020 2:55:30 PM"
-"40"|"C:\C@d3\Fields Client Site Creation\.git\objects\40"||"2/07/2020 2:54:39 PM"|"2/07/2020 2:54:39 PM"
-"43"|"C:\C@d3\Fields Client Site Creation\.git\objects\43"||"2/07/2020 9:56:50 AM"|"2/07/2020 9:56:50 AM"
-"47"|"C:\C@d3\Fields Client Site Creation\.git\objects\47"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"50"|"C:\C@d3\Fields Client Site Creation\.git\objects\50"||"2/07/2020 2:54:39 PM"|"2/07/2020 2:54:39 PM"
-"53"|"C:\C@d3\Fields Client Site Creation\.git\objects\53"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"8e"|"C:\C@d3\Fields Client Site Creation\.git\objects\8e"||"2/07/2020 2:55:30 PM"|"2/07/2020 2:55:30 PM"
-"b4"|"C:\C@d3\Fields Client Site Creation\.git\objects\b4"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"c3"|"C:\C@d3\Fields Client Site Creation\.git\objects\c3"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"f3"|"C:\C@d3\Fields Client Site Creation\.git\objects\f3"||"2/07/2020 9:52:41 AM"|"2/07/2020 9:52:41 AM"
-"info"|"C:\C@d3\Fields Client Site Creation\.git\objects\info"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"pack"|"C:\C@d3\Fields Client Site Creation\.git\objects\pack"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-"heads"|"C:\C@d3\Fields Client Site Creation\.git\refs\heads"||"2/07/2020 9:52:35 AM"|"2/07/2020 2:55:30 PM"
-"remotes"|"C:\C@d3\Fields Client Site Creation\.git\refs\remotes"||"2/07/2020 9:59:43 AM"|"2/07/2020 9:59:43 AM"
-"tags"|"C:\C@d3\Fields Client Site Creation\.git\refs\tags"||"2/07/2020 9:52:35 AM"|"2/07/2020 9:52:35 AM"
-".git"|"C:\C@d3\HeadStart\API\SyncAPI\.git"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:17:01 PM"
-".vs"|"C:\C@d3\HeadStart\API\SyncAPI\.vs"||"3/07/2020 9:43:58 AM"|"3/07/2020 10:02:42 AM"
-".vscode"|"C:\C@d3\HeadStart\API\SyncAPI\.vscode"||"1/07/2020 1:17:56 PM"|"1/07/2020 1:17:56 PM"
-"bin"|"C:\C@d3\HeadStart\API\SyncAPI\bin"||"1/07/2020 11:22:39 AM"|"3/07/2020 10:01:33 AM"
-"Controllers"|"C:\C@d3\HeadStart\API\SyncAPI\Controllers"||"1/07/2020 11:20:52 AM"|"1/07/2020 12:01:05 PM"
-"Models"|"C:\C@d3\HeadStart\API\SyncAPI\Models"||"1/07/2020 12:00:53 PM"|"1/07/2020 12:00:53 PM"
-"obj"|"C:\C@d3\HeadStart\API\SyncAPI\obj"||"1/07/2020 11:20:53 AM"|"3/07/2020 10:01:33 AM"
-"Properties"|"C:\C@d3\HeadStart\API\SyncAPI\Properties"||"1/07/2020 11:20:52 AM"|"1/07/2020 11:20:52 AM"
-"Views"|"C:\C@d3\HeadStart\API\SyncAPI\Views"||"3/07/2020 9:44:34 AM"|"3/07/2020 9:44:34 AM"
-"Net35"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35"||"3/07/2020 10:28:16 AM"|"3/07/2020 10:28:16 AM"
-"Net40"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40"||"3/07/2020 10:28:16 AM"|"3/07/2020 10:28:16 AM"
-"Net45"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45"||"3/07/2020 10:28:16 AM"|"3/07/2020 10:28:16 AM"
-"Net451"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451"||"3/07/2020 10:28:16 AM"|"3/07/2020 10:28:17 AM"
-"Net452"|"C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452"||"3/07/2020 10:28:17 AM"|"3/07/2020 10:28:17 AM"
-"SubCh1"|"C:\C@d3\ScanFolder\TestFolder\Ch1\SubCh1"||"3/07/2020 10:22:53 AM"|"3/07/2020 11:33:17 AM"
-"heads"|"C:\C@d3\Fields Client Site Creation\.git\logs\refs\heads"||"2/07/2020 9:56:50 AM"|"2/07/2020 9:56:50 AM"
-"remotes"|"C:\C@d3\Fields Client Site Creation\.git\logs\refs\remotes"||"2/07/2020 9:59:43 AM"|"2/07/2020 9:59:43 AM"
-"origin"|"C:\C@d3\Fields Client Site Creation\.git\refs\remotes\origin"||"2/07/2020 9:59:43 AM"|"2/07/2020 2:55:45 PM"
-"hooks"|"C:\C@d3\HeadStart\API\SyncAPI\.git\hooks"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"info"|"C:\C@d3\HeadStart\API\SyncAPI\.git\info"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"logs"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"objects"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:15:16 PM"
-"refs"|"C:\C@d3\HeadStart\API\SyncAPI\.git\refs"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:17:01 PM"
-"SyncAPI"|"C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI"||"3/07/2020 9:43:58 AM"|"3/07/2020 9:45:13 AM"
-"Debug"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug"||"1/07/2020 11:22:39 AM"|"1/07/2020 11:22:39 AM"
-"Release"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Release"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"Debug"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug"||"1/07/2020 11:22:39 AM"|"1/07/2020 11:22:39 AM"
-"Release"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Release"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"origin"|"C:\C@d3\Fields Client Site Creation\.git\logs\refs\remotes\origin"||"2/07/2020 9:59:43 AM"|"2/07/2020 9:59:43 AM"
-"refs"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:17:01 PM"
-"03"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\03"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"07"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\07"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"08"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\08"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"0b"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0b"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"0d"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0d"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:16 PM"
-"14"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\14"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"19"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\19"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"1e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\1e"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"25"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\25"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"27"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\27"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"30"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\30"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"32"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\32"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"33"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\33"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"34"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\34"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:16 PM"
-"37"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\37"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"3e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3e"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:16 PM"
-"3f"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3f"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"41"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\41"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"47"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\47"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"4a"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4a"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"4b"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4b"||"1/07/2020 1:14:48 PM"|"1/07/2020 1:14:48 PM"
-"4e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4e"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"50"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\50"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"51"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\51"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"53"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\53"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"54"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\54"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"56"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\56"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"59"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\59"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"5a"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5a"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"5b"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5b"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"5f"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5f"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"62"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\62"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"6a"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6a"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"6b"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6b"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"6c"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6c"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"6d"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6d"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"73"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\73"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"77"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\77"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"7b"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7b"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"7d"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7d"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"7f"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7f"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"80"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\80"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"82"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\82"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"84"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\84"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"89"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\89"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"8f"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\8f"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"9a"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9a"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"9e"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9e"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"a5"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a5"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:16 PM"
-"a9"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a9"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"ab"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ab"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"ad"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ad"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"ae"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ae"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"af"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\af"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"b0"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b0"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"b3"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b3"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"b7"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b7"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"ba"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ba"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"bb"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bb"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"bc"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bc"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"bd"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bd"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"c0"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c0"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"c1"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c1"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"c7"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c7"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"cc"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\cc"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"ce"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ce"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"d2"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d2"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"d4"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d4"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"d5"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d5"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"d9"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d9"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"dc"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dc"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"dd"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dd"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"df"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\df"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"e4"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e4"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"e5"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e5"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:12 PM"
-"e6"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e6"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:16 PM"
-"ef"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ef"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"f2"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f2"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"f4"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f4"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:16 PM"
-"f8"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f8"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"fc"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fc"||"1/07/2020 1:15:12 PM"|"1/07/2020 1:15:12 PM"
-"fd"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fd"||"1/07/2020 1:15:11 PM"|"1/07/2020 1:15:11 PM"
-"info"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\info"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"pack"|"C:\C@d3\HeadStart\API\SyncAPI\.git\objects\pack"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"heads"|"C:\C@d3\HeadStart\API\SyncAPI\.git\refs\heads"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:15:16 PM"
-"remotes"|"C:\C@d3\HeadStart\API\SyncAPI\.git\refs\remotes"||"1/07/2020 1:17:01 PM"|"1/07/2020 1:17:01 PM"
-"tags"|"C:\C@d3\HeadStart\API\SyncAPI\.git\refs\tags"||"1/07/2020 1:13:32 PM"|"1/07/2020 1:13:32 PM"
-"config"|"C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\config"||"3/07/2020 9:45:13 AM"|"3/07/2020 9:45:13 AM"
-"v16"|"C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\v16"||"3/07/2020 9:43:58 AM"|"3/07/2020 10:02:20 AM"
-"netcoreapp3.1"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1"||"1/07/2020 11:22:39 AM"|"1/07/2020 11:34:20 AM"
-"netcoreapp3.1"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Release\netcoreapp3.1"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"netcoreapp3.1"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1"||"1/07/2020 11:22:39 AM"|"3/07/2020 10:02:42 AM"
-"netcoreapp3.1"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1"||"3/07/2020 10:01:33 AM"|"3/07/2020 10:01:33 AM"
-"heads"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\heads"||"1/07/2020 1:15:16 PM"|"1/07/2020 1:15:16 PM"
-"remotes"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\remotes"||"1/07/2020 1:17:01 PM"|"1/07/2020 1:17:01 PM"
-"origin"|"C:\C@d3\HeadStart\API\SyncAPI\.git\refs\remotes\origin"||"1/07/2020 1:17:01 PM"|"1/07/2020 1:17:01 PM"
-"Properties"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Properties"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"runtimes"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"staticwebassets"|"C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\staticwebassets"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"origin"|"C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\remotes\origin"||"1/07/2020 1:17:01 PM"|"1/07/2020 1:17:01 PM"
-"unix"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"win"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"win-arm64"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"win-x64"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"win-x86"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"lib"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"lib"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"native"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"native"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"native"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"netcoreapp2.0"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"netcoreapp2.1"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"netcoreapp2.0"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"netcoreapp2.1"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
-"netstandard2.0"|"C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0"||"1/07/2020 11:34:20 AM"|"1/07/2020 11:34:20 AM"
+FileName,FullPath,FileSize,CreationTime,LastWriteTime
+config,C:\C@d3\ScanFolder\.git\config,307,3/07/2020 13:58,3/07/2020 13:58
+master,C:\C@d3\ScanFolder\.git\refs\remotes\origin\master,41,3/07/2020 13:58,3/07/2020 13:58
+master,C:\C@d3\ScanFolder\.git\logs\refs\remotes\origin\master,152,3/07/2020 13:58,3/07/2020 13:58
+remotes,C:\C@d3\ScanFolder\.git\refs\remotes,0,3/07/2020 13:58,3/07/2020 13:58
+remotes,C:\C@d3\ScanFolder\.git\logs\refs\remotes,0,3/07/2020 13:58,3/07/2020 13:58
+origin,C:\C@d3\ScanFolder\.git\refs\remotes\origin,0,3/07/2020 13:58,3/07/2020 13:58
+origin,C:\C@d3\ScanFolder\.git\logs\refs\remotes\origin,0,3/07/2020 13:58,3/07/2020 13:58
+COMMIT_EDITMSG,C:\C@d3\ScanFolder\.git\COMMIT_EDITMSG,43,3/07/2020 13:56,3/07/2020 13:56
+index,C:\C@d3\ScanFolder\.git\index,2758,3/07/2020 13:56,3/07/2020 13:56
+HEAD,C:\C@d3\ScanFolder\.git\logs\HEAD,198,3/07/2020 13:56,3/07/2020 13:56
+960225a101aea204f0dbe311eaf97e2ae3cab6,C:\C@d3\ScanFolder\.git\objects\0b\960225a101aea204f0dbe311eaf97e2ae3cab6,111,3/07/2020 13:56,3/07/2020 13:56
+6978d6ef24cc2c4f7b27ebe4e160c3fbab6a75,C:\C@d3\ScanFolder\.git\objects\2b\6978d6ef24cc2c4f7b27ebe4e160c3fbab6a75,238,3/07/2020 13:56,3/07/2020 13:56
+431c29f421c31ee2004d13c5051f05c3a60a1a,C:\C@d3\ScanFolder\.git\objects\32\431c29f421c31ee2004d13c5051f05c3a60a1a,191,3/07/2020 13:56,3/07/2020 13:56
+6fe922d377719adcba103ac89fa3bd02707e72,C:\C@d3\ScanFolder\.git\objects\70\6fe922d377719adcba103ac89fa3bd02707e72,57,3/07/2020 13:56,3/07/2020 13:56
+e3fa86a351fe3ad002279f913ba3fc57c80b03,C:\C@d3\ScanFolder\.git\objects\a5\e3fa86a351fe3ad002279f913ba3fc57c80b03,48,3/07/2020 13:56,3/07/2020 13:56
+74b574c051aa0f957ff6e45dfc84135b0db358,C:\C@d3\ScanFolder\.git\objects\a9\74b574c051aa0f957ff6e45dfc84135b0db358,150,3/07/2020 13:56,3/07/2020 13:56
+e4171e52ad6913efe22ffcdf4087125feb5f22,C:\C@d3\ScanFolder\.git\objects\af\e4171e52ad6913efe22ffcdf4087125feb5f22,111,3/07/2020 13:56,3/07/2020 13:56
+a750928b38e587d980e37cb5a47facf0983366,C:\C@d3\ScanFolder\.git\objects\c4\a750928b38e587d980e37cb5a47facf0983366,156,3/07/2020 13:56,3/07/2020 13:56
+e06c9fee0023811ee1b29f6baf80936f930a1b,C:\C@d3\ScanFolder\.git\objects\c4\e06c9fee0023811ee1b29f6baf80936f930a1b,111,3/07/2020 13:56,3/07/2020 13:56
+9f8b40cd549cb277cfe55642371613df2cbe36,C:\C@d3\ScanFolder\.git\objects\c9\9f8b40cd549cb277cfe55642371613df2cbe36,46,3/07/2020 13:56,3/07/2020 13:56
+67402482209e054ae57ba06788e5422afed724,C:\C@d3\ScanFolder\.git\objects\d2\67402482209e054ae57ba06788e5422afed724,111,3/07/2020 13:56,3/07/2020 13:56
+eb44a05896991ab2b95786311fa29874f4f3e6,C:\C@d3\ScanFolder\.git\objects\db\eb44a05896991ab2b95786311fa29874f4f3e6,111,3/07/2020 13:56,3/07/2020 13:56
+master,C:\C@d3\ScanFolder\.git\refs\heads\master,41,3/07/2020 13:56,3/07/2020 13:56
+master,C:\C@d3\ScanFolder\.git\logs\refs\heads\master,198,3/07/2020 13:56,3/07/2020 13:56
+logs,C:\C@d3\ScanFolder\.git\logs,0,3/07/2020 13:56,3/07/2020 13:56
+refs,C:\C@d3\ScanFolder\.git\logs\refs,0,3/07/2020 13:56,3/07/2020 13:58
+2b,C:\C@d3\ScanFolder\.git\objects\2b,0,3/07/2020 13:56,3/07/2020 13:56
+32,C:\C@d3\ScanFolder\.git\objects\32,0,3/07/2020 13:56,3/07/2020 13:56
+70,C:\C@d3\ScanFolder\.git\objects\70,0,3/07/2020 13:56,3/07/2020 13:56
+a5,C:\C@d3\ScanFolder\.git\objects\a5,0,3/07/2020 13:56,3/07/2020 13:56
+a9,C:\C@d3\ScanFolder\.git\objects\a9,0,3/07/2020 13:56,3/07/2020 13:56
+af,C:\C@d3\ScanFolder\.git\objects\af,0,3/07/2020 13:56,3/07/2020 13:56
+c4,C:\C@d3\ScanFolder\.git\objects\c4,0,3/07/2020 13:56,3/07/2020 13:56
+c9,C:\C@d3\ScanFolder\.git\objects\c9,0,3/07/2020 13:56,3/07/2020 13:56
+d2,C:\C@d3\ScanFolder\.git\objects\d2,0,3/07/2020 13:56,3/07/2020 13:56
+db,C:\C@d3\ScanFolder\.git\objects\db,0,3/07/2020 13:56,3/07/2020 13:56
+heads,C:\C@d3\ScanFolder\.git\logs\refs\heads,0,3/07/2020 13:56,3/07/2020 13:56
+253947ec9e5d00d0ef341449d1f79ee26f0272,C:\C@d3\ScanFolder\.git\objects\0f\253947ec9e5d00d0ef341449d1f79ee26f0272,1303,3/07/2020 13:55,3/07/2020 13:55
+2444058dbfc2ba01ddbf5cf2b47f0279a9e6e9,C:\C@d3\ScanFolder\.git\objects\1c\2444058dbfc2ba01ddbf5cf2b47f0279a9e6e9,10033,3/07/2020 13:55,3/07/2020 13:55
+97c0a192423b9f6479d801db2f13af3eae1664,C:\C@d3\ScanFolder\.git\objects\24\97c0a192423b9f6479d801db2f13af3eae1664,1484,3/07/2020 13:55,3/07/2020 13:55
+7ac3c2aa3431b113aaece2355be96140227877,C:\C@d3\ScanFolder\.git\objects\2f\7ac3c2aa3431b113aaece2355be96140227877,581,3/07/2020 13:55,3/07/2020 13:55
+c1d9cf3d85d894a45d6b7c3e37ea148a81cb8d,C:\C@d3\ScanFolder\.git\objects\33\c1d9cf3d85d894a45d6b7c3e37ea148a81cb8d,149043,3/07/2020 13:55,3/07/2020 13:55
+26ad8656d3993ae292397411e48fa7d14cb584,C:\C@d3\ScanFolder\.git\objects\ca\26ad8656d3993ae292397411e48fa7d14cb584,796,3/07/2020 13:55,3/07/2020 13:55
+9de29bb2d1d6434b8b29ae775ad8c2e48c5391,C:\C@d3\ScanFolder\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391,15,3/07/2020 13:55,3/07/2020 13:55
+cf92be029e4667ec66b8a0432ecb36950e3a1b,C:\C@d3\ScanFolder\.git\objects\ef\cf92be029e4667ec66b8a0432ecb36950e3a1b,250011,3/07/2020 13:55,3/07/2020 13:55
+a4bd4819eb6c8633450c84756c5154a015f40e,C:\C@d3\ScanFolder\.git\objects\f6\a4bd4819eb6c8633450c84756c5154a015f40e,250014,3/07/2020 13:55,3/07/2020 13:55
+0f,C:\C@d3\ScanFolder\.git\objects\0f,0,3/07/2020 13:55,3/07/2020 13:55
+1c,C:\C@d3\ScanFolder\.git\objects\1c,0,3/07/2020 13:55,3/07/2020 13:55
+24,C:\C@d3\ScanFolder\.git\objects\24,0,3/07/2020 13:55,3/07/2020 13:55
+2f,C:\C@d3\ScanFolder\.git\objects\2f,0,3/07/2020 13:55,3/07/2020 13:55
+33,C:\C@d3\ScanFolder\.git\objects\33,0,3/07/2020 13:55,3/07/2020 13:55
+ca,C:\C@d3\ScanFolder\.git\objects\ca,0,3/07/2020 13:55,3/07/2020 13:55
+e6,C:\C@d3\ScanFolder\.git\objects\e6,0,3/07/2020 13:55,3/07/2020 13:55
+ef,C:\C@d3\ScanFolder\.git\objects\ef,0,3/07/2020 13:55,3/07/2020 13:55
+f6,C:\C@d3\ScanFolder\.git\objects\f6,0,3/07/2020 13:55,3/07/2020 13:55
+0ab681bee27311cd94b0b189c65b643c7777ef,C:\C@d3\ScanFolder\.git\objects\0b\0ab681bee27311cd94b0b189c65b643c7777ef,249933,3/07/2020 13:55,3/07/2020 13:55
+1ab4016b90cd2593de8165fbd3101a0d66838f,C:\C@d3\ScanFolder\.git\objects\18\1ab4016b90cd2593de8165fbd3101a0d66838f,229967,3/07/2020 13:55,3/07/2020 13:55
+7c172392057bda76d3319c32179826a5bab53b,C:\C@d3\ScanFolder\.git\objects\1b\7c172392057bda76d3319c32179826a5bab53b,148584,3/07/2020 13:55,3/07/2020 13:55
+87c2ca14d055197b07956f527aa543c3212851,C:\C@d3\ScanFolder\.git\objects\29\87c2ca14d055197b07956f527aa543c3212851,229864,3/07/2020 13:55,3/07/2020 13:55
+71e6e27c03a390ed55a3eee95134881cf974ce,C:\C@d3\ScanFolder\.git\objects\44\71e6e27c03a390ed55a3eee95134881cf974ce,2705553,3/07/2020 13:55,3/07/2020 13:55
+db9273791846c94256733cff8db9927cc2d274,C:\C@d3\ScanFolder\.git\objects\47\db9273791846c94256733cff8db9927cc2d274,699,3/07/2020 13:55,3/07/2020 13:55
+b46a2f0835da13a7b9be174a265be5806c460e,C:\C@d3\ScanFolder\.git\objects\58\b46a2f0835da13a7b9be174a265be5806c460e,250027,3/07/2020 13:55,3/07/2020 13:55
+3fd9a238cbcc7d6102ca68b53193d3f27829f0,C:\C@d3\ScanFolder\.git\objects\7f\3fd9a238cbcc7d6102ca68b53193d3f27829f0,250026,3/07/2020 13:55,3/07/2020 13:55
+4c3507bdc4b1185b8565131fa0586fb068dc33,C:\C@d3\ScanFolder\.git\objects\95\4c3507bdc4b1185b8565131fa0586fb068dc33,10329,3/07/2020 13:55,3/07/2020 13:55
+a64dc133c5828a3c4ac70d6b58b220c4024cf3,C:\C@d3\ScanFolder\.git\objects\a3\a64dc133c5828a3c4ac70d6b58b220c4024cf3,149004,3/07/2020 13:55,3/07/2020 13:55
+21cfa152479a468e1ec2991f41d96c2446b312,C:\C@d3\ScanFolder\.git\objects\b1\21cfa152479a468e1ec2991f41d96c2446b312,149047,3/07/2020 13:55,3/07/2020 13:55
+53c79eca0013dce26688b944f6ddf63f6f74ba,C:\C@d3\ScanFolder\.git\objects\e0\53c79eca0013dce26688b944f6ddf63f6f74ba,148305,3/07/2020 13:55,3/07/2020 13:55
+0b,C:\C@d3\ScanFolder\.git\objects\0b,0,3/07/2020 13:55,3/07/2020 13:56
+18,C:\C@d3\ScanFolder\.git\objects\18,0,3/07/2020 13:55,3/07/2020 13:55
+1b,C:\C@d3\ScanFolder\.git\objects\1b,0,3/07/2020 13:55,3/07/2020 13:55
+29,C:\C@d3\ScanFolder\.git\objects\29,0,3/07/2020 13:55,3/07/2020 13:55
+44,C:\C@d3\ScanFolder\.git\objects\44,0,3/07/2020 13:55,3/07/2020 13:55
+47,C:\C@d3\ScanFolder\.git\objects\47,0,3/07/2020 13:55,3/07/2020 13:55
+58,C:\C@d3\ScanFolder\.git\objects\58,0,3/07/2020 13:55,3/07/2020 13:55
+7f,C:\C@d3\ScanFolder\.git\objects\7f,0,3/07/2020 13:55,3/07/2020 13:55
+95,C:\C@d3\ScanFolder\.git\objects\95,0,3/07/2020 13:55,3/07/2020 13:55
+a3,C:\C@d3\ScanFolder\.git\objects\a3,0,3/07/2020 13:55,3/07/2020 13:55
+b1,C:\C@d3\ScanFolder\.git\objects\b1,0,3/07/2020 13:55,3/07/2020 13:55
+e0,C:\C@d3\ScanFolder\.git\objects\e0,0,3/07/2020 13:55,3/07/2020 13:55
+description,C:\C@d3\ScanFolder\.git\description,73,3/07/2020 13:55,3/07/2020 13:55
+HEAD,C:\C@d3\ScanFolder\.git\HEAD,23,3/07/2020 13:55,3/07/2020 13:55
+applypatch-msg.sample,C:\C@d3\ScanFolder\.git\hooks\applypatch-msg.sample,478,3/07/2020 13:55,3/07/2020 13:55
+commit-msg.sample,C:\C@d3\ScanFolder\.git\hooks\commit-msg.sample,896,3/07/2020 13:55,3/07/2020 13:55
+fsmonitor-watchman.sample,C:\C@d3\ScanFolder\.git\hooks\fsmonitor-watchman.sample,4655,3/07/2020 13:55,3/07/2020 13:55
+post-update.sample,C:\C@d3\ScanFolder\.git\hooks\post-update.sample,189,3/07/2020 13:55,3/07/2020 13:55
+pre-applypatch.sample,C:\C@d3\ScanFolder\.git\hooks\pre-applypatch.sample,424,3/07/2020 13:55,3/07/2020 13:55
+pre-commit.sample,C:\C@d3\ScanFolder\.git\hooks\pre-commit.sample,1643,3/07/2020 13:55,3/07/2020 13:55
+pre-merge-commit.sample,C:\C@d3\ScanFolder\.git\hooks\pre-merge-commit.sample,416,3/07/2020 13:55,3/07/2020 13:55
+pre-push.sample,C:\C@d3\ScanFolder\.git\hooks\pre-push.sample,1348,3/07/2020 13:55,3/07/2020 13:55
+pre-rebase.sample,C:\C@d3\ScanFolder\.git\hooks\pre-rebase.sample,4898,3/07/2020 13:55,3/07/2020 13:55
+pre-receive.sample,C:\C@d3\ScanFolder\.git\hooks\pre-receive.sample,544,3/07/2020 13:55,3/07/2020 13:55
+prepare-commit-msg.sample,C:\C@d3\ScanFolder\.git\hooks\prepare-commit-msg.sample,1492,3/07/2020 13:55,3/07/2020 13:55
+update.sample,C:\C@d3\ScanFolder\.git\hooks\update.sample,3635,3/07/2020 13:55,3/07/2020 13:55
+exclude,C:\C@d3\ScanFolder\.git\info\exclude,240,3/07/2020 13:55,3/07/2020 13:55
+.git,C:\C@d3\ScanFolder\.git,0,3/07/2020 13:55,3/07/2020 13:58
+hooks,C:\C@d3\ScanFolder\.git\hooks,0,3/07/2020 13:55,3/07/2020 13:55
+info,C:\C@d3\ScanFolder\.git\info,0,3/07/2020 13:55,3/07/2020 13:55
+objects,C:\C@d3\ScanFolder\.git\objects,0,3/07/2020 13:55,3/07/2020 13:56
+refs,C:\C@d3\ScanFolder\.git\refs,0,3/07/2020 13:55,3/07/2020 13:58
+info,C:\C@d3\ScanFolder\.git\objects\info,0,3/07/2020 13:55,3/07/2020 13:55
+pack,C:\C@d3\ScanFolder\.git\objects\pack,0,3/07/2020 13:55,3/07/2020 13:55
+heads,C:\C@d3\ScanFolder\.git\refs\heads,0,3/07/2020 13:55,3/07/2020 13:56
+tags,C:\C@d3\ScanFolder\.git\refs\tags,0,3/07/2020 13:55,3/07/2020 13:55
+output.csv,C:\C@d3\ScanFolder\output.csv,0,3/07/2020 13:54,3/07/2020 14:14
+release.ps1,C:\C@d3\ScanFolder\release.ps1,1119,3/07/2020 12:11,3/07/2020 14:13
+testfile.txt,C:\C@d3\ScanFolder\TestFolder\Ch1\SubCh1\testfile.txt,0,3/07/2020 11:33,3/07/2020 11:33
+Net452,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452,0,3/07/2020 10:28,3/07/2020 10:28
+AlphaFS.2.2.6.0,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0,0,3/07/2020 10:28,3/07/2020 10:28
+Lib,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib,0,3/07/2020 10:28,3/07/2020 10:28
+Net35,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35,0,3/07/2020 10:28,3/07/2020 10:28
+Net40,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40,0,3/07/2020 10:28,3/07/2020 10:28
+Net45,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45,0,3/07/2020 10:28,3/07/2020 10:28
+Net451,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451,0,3/07/2020 10:28,3/07/2020 10:28
+SubCh1,C:\C@d3\ScanFolder\TestFolder\Ch1\SubCh1,0,3/07/2020 10:22,3/07/2020 11:33
+Ch2,C:\C@d3\ScanFolder\TestFolder\Ch2,0,3/07/2020 10:22,3/07/2020 10:22
+Ch1,C:\C@d3\ScanFolder\TestFolder\Ch1,0,3/07/2020 10:22,3/07/2020 10:23
+TestFolder,C:\C@d3\ScanFolder\TestFolder,0,3/07/2020 10:22,3/07/2020 10:22
+ScanJob.ps1,C:\C@d3\ScanFolder\ScanJob.ps1,1657,3/07/2020 10:17,3/07/2020 12:43
+ScanFolder,C:\C@d3\ScanFolder,0,3/07/2020 10:15,3/07/2020 14:10
+Get-AlphaFSChildItem.ps1,C:\C@d3\ScanFolder\Get-AlphaFSChildItem.ps1,3605,3/07/2020 10:12,3/07/2020 12:07
+VSWorkspaceState.json,C:\C@d3\HeadStart\API\SyncAPI\.vs\VSWorkspaceState.json,167,3/07/2020 10:02,3/07/2020 10:02
+SyncAPI.sln,C:\C@d3\HeadStart\API\SyncAPI\SyncAPI.sln,1119,3/07/2020 10:02,3/07/2020 10:02
+.suo,C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\v16\.suo,19456,3/07/2020 10:02,3/07/2020 10:02
+".NETCoreApp,Version=v3.1.AssemblyAttributes.cs","C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs",190,3/07/2020 10:01,3/07/2020 10:01
+SyncAPI.AssemblyInfo.cs,C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\SyncAPI.AssemblyInfo.cs,996,3/07/2020 10:01,3/07/2020 10:01
+SyncAPI.AssemblyInfoInputs.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\SyncAPI.AssemblyInfoInputs.cache,42,3/07/2020 10:01,3/07/2020 10:01
+SyncAPI.assets.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1\SyncAPI.assets.cache,33735,3/07/2020 10:01,3/07/2020 10:01
+Release,C:\C@d3\HeadStart\API\SyncAPI\bin\Release,0,3/07/2020 10:01,3/07/2020 10:01
+Release,C:\C@d3\HeadStart\API\SyncAPI\obj\Release,0,3/07/2020 10:01,3/07/2020 10:01
+netcoreapp3.1,C:\C@d3\HeadStart\API\SyncAPI\bin\Release\netcoreapp3.1,0,3/07/2020 10:01,3/07/2020 10:01
+netcoreapp3.1,C:\C@d3\HeadStart\API\SyncAPI\obj\Release\netcoreapp3.1,0,3/07/2020 10:01,3/07/2020 10:01
+slnx.sqlite,C:\C@d3\HeadStart\API\SyncAPI\.vs\slnx.sqlite,212992,3/07/2020 10:01,3/07/2020 10:02
+applicationhost.config,C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\config\applicationhost.config,80758,3/07/2020 9:45,3/07/2020 9:45
+config,C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\config,0,3/07/2020 9:45,3/07/2020 9:45
+SyncAPI.exe,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.exe,174592,3/07/2020 9:45,3/07/2020 9:45
+Views,C:\C@d3\HeadStart\API\SyncAPI\Views,0,3/07/2020 9:44,3/07/2020 9:44
+.vs,C:\C@d3\HeadStart\API\SyncAPI\.vs,0,3/07/2020 9:43,3/07/2020 10:02
+SyncAPI,C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI,0,3/07/2020 9:43,3/07/2020 9:45
+v16,C:\C@d3\HeadStart\API\SyncAPI\.vs\SyncAPI\v16,0,3/07/2020 9:43,3/07/2020 10:02
+master,C:\C@d3\Fields Client Site Creation\.git\refs\remotes\origin\master,41,2/07/2020 14:55,2/07/2020 14:55
+index,C:\C@d3\Fields Client Site Creation\.git\index,561,2/07/2020 14:55,2/07/2020 14:55
+b0b9c73a8e3888e7396345993dbdbe42844375,C:\C@d3\Fields Client Site Creation\.git\objects\1b\b0b9c73a8e3888e7396345993dbdbe42844375,250,2/07/2020 14:55,2/07/2020 14:55
+7c4157d2b279e5dbf0d72238a462169972ad07,C:\C@d3\Fields Client Site Creation\.git\objects\8e\7c4157d2b279e5dbf0d72238a462169972ad07,192,2/07/2020 14:55,2/07/2020 14:55
+master,C:\C@d3\Fields Client Site Creation\.git\refs\heads\master,41,2/07/2020 14:55,2/07/2020 14:55
+1b,C:\C@d3\Fields Client Site Creation\.git\objects\1b,0,2/07/2020 14:55,2/07/2020 14:55
+8e,C:\C@d3\Fields Client Site Creation\.git\objects\8e,0,2/07/2020 14:55,2/07/2020 14:55
+9a7415f0e23399b83e2bd2ea707bd3f40d0be3,C:\C@d3\Fields Client Site Creation\.git\objects\0b\9a7415f0e23399b83e2bd2ea707bd3f40d0be3,2441,2/07/2020 14:54,2/07/2020 14:54
+d124f1c76a75ceb0f607792b9a18637c094682,C:\C@d3\Fields Client Site Creation\.git\objects\40\d124f1c76a75ceb0f607792b9a18637c094682,1299,2/07/2020 14:54,2/07/2020 14:54
+38c52f42758d0ab19171db71216d0b83e78592,C:\C@d3\Fields Client Site Creation\.git\objects\50\38c52f42758d0ab19171db71216d0b83e78592,795,2/07/2020 14:54,2/07/2020 14:54
+0b,C:\C@d3\Fields Client Site Creation\.git\objects\0b,0,2/07/2020 14:54,2/07/2020 14:54
+40,C:\C@d3\Fields Client Site Creation\.git\objects\40,0,2/07/2020 14:54,2/07/2020 14:54
+50,C:\C@d3\Fields Client Site Creation\.git\objects\50,0,2/07/2020 14:54,2/07/2020 14:54
+remove.ps1,C:\C@d3\Fields Client Site Creation\remove.ps1,3074,2/07/2020 11:41,2/07/2020 11:50
+master,C:\C@d3\Fields Client Site Creation\.git\logs\refs\remotes\origin\master,304,2/07/2020 9:59,2/07/2020 14:55
+remotes,C:\C@d3\Fields Client Site Creation\.git\refs\remotes,0,2/07/2020 9:59,2/07/2020 9:59
+remotes,C:\C@d3\Fields Client Site Creation\.git\logs\refs\remotes,0,2/07/2020 9:59,2/07/2020 9:59
+origin,C:\C@d3\Fields Client Site Creation\.git\refs\remotes\origin,0,2/07/2020 9:59,2/07/2020 14:55
+origin,C:\C@d3\Fields Client Site Creation\.git\logs\refs\remotes\origin,0,2/07/2020 9:59,2/07/2020 9:59
+config,C:\C@d3\Fields Client Site Creation\.git\config,314,2/07/2020 9:59,2/07/2020 9:59
+COMMIT_EDITMSG,C:\C@d3\Fields Client Site Creation\.git\COMMIT_EDITMSG,49,2/07/2020 9:56,2/07/2020 14:55
+HEAD,C:\C@d3\Fields Client Site Creation\.git\logs\HEAD,377,2/07/2020 9:56,2/07/2020 14:55
+ad9646d1aefeec20a837708caa8c4b28fd8313,C:\C@d3\Fields Client Site Creation\.git\objects\01\ad9646d1aefeec20a837708caa8c4b28fd8313,146,2/07/2020 9:56,2/07/2020 9:56
+2cb22f21d5cac16fd622703ec21255e1ba6264,C:\C@d3\Fields Client Site Creation\.git\objects\43\2cb22f21d5cac16fd622703ec21255e1ba6264,220,2/07/2020 9:56,2/07/2020 9:56
+master,C:\C@d3\Fields Client Site Creation\.git\logs\refs\heads\master,377,2/07/2020 9:56,2/07/2020 14:55
+logs,C:\C@d3\Fields Client Site Creation\.git\logs,0,2/07/2020 9:56,2/07/2020 9:56
+refs,C:\C@d3\Fields Client Site Creation\.git\logs\refs,0,2/07/2020 9:56,2/07/2020 9:59
+01,C:\C@d3\Fields Client Site Creation\.git\objects\01,0,2/07/2020 9:56,2/07/2020 9:56
+43,C:\C@d3\Fields Client Site Creation\.git\objects\43,0,2/07/2020 9:56,2/07/2020 9:56
+heads,C:\C@d3\Fields Client Site Creation\.git\logs\refs\heads,0,2/07/2020 9:56,2/07/2020 9:56
+c60e580f68dca74dd1250ec76f3d0a4c0210d0,C:\C@d3\Fields Client Site Creation\.git\objects\47\c60e580f68dca74dd1250ec76f3d0a4c0210d0,356,2/07/2020 9:52,2/07/2020 9:52
+7f14be5a777b5552d3acf1f5356be404f32e9f,C:\C@d3\Fields Client Site Creation\.git\objects\53\7f14be5a777b5552d3acf1f5356be404f32e9f,11648,2/07/2020 9:52,2/07/2020 14:54
+461a7fc0b71a8771cf178588292c62156633b5,C:\C@d3\Fields Client Site Creation\.git\objects\b4\461a7fc0b71a8771cf178588292c62156633b5,635,2/07/2020 9:52,2/07/2020 9:52
+c5776301cd9797f2be9605e26407c7953b2715,C:\C@d3\Fields Client Site Creation\.git\objects\c3\c5776301cd9797f2be9605e26407c7953b2715,81,2/07/2020 9:52,2/07/2020 9:52
+d471d61903ee7fe0b9b6f929811a4e158d8b9d,C:\C@d3\Fields Client Site Creation\.git\objects\f3\d471d61903ee7fe0b9b6f929811a4e158d8b9d,2077,2/07/2020 9:52,2/07/2020 9:52
+47,C:\C@d3\Fields Client Site Creation\.git\objects\47,0,2/07/2020 9:52,2/07/2020 9:52
+53,C:\C@d3\Fields Client Site Creation\.git\objects\53,0,2/07/2020 9:52,2/07/2020 9:52
+b4,C:\C@d3\Fields Client Site Creation\.git\objects\b4,0,2/07/2020 9:52,2/07/2020 9:52
+c3,C:\C@d3\Fields Client Site Creation\.git\objects\c3,0,2/07/2020 9:52,2/07/2020 9:52
+f3,C:\C@d3\Fields Client Site Creation\.git\objects\f3,0,2/07/2020 9:52,2/07/2020 9:52
+description,C:\C@d3\Fields Client Site Creation\.git\description,73,2/07/2020 9:52,2/07/2020 9:52
+HEAD,C:\C@d3\Fields Client Site Creation\.git\HEAD,23,2/07/2020 9:52,2/07/2020 9:52
+applypatch-msg.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\applypatch-msg.sample,478,2/07/2020 9:52,2/07/2020 9:52
+commit-msg.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\commit-msg.sample,896,2/07/2020 9:52,2/07/2020 9:52
+fsmonitor-watchman.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\fsmonitor-watchman.sample,4655,2/07/2020 9:52,2/07/2020 9:52
+post-update.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\post-update.sample,189,2/07/2020 9:52,2/07/2020 9:52
+pre-applypatch.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\pre-applypatch.sample,424,2/07/2020 9:52,2/07/2020 9:52
+pre-commit.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\pre-commit.sample,1643,2/07/2020 9:52,2/07/2020 9:52
+pre-merge-commit.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\pre-merge-commit.sample,416,2/07/2020 9:52,2/07/2020 9:52
+pre-push.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\pre-push.sample,1348,2/07/2020 9:52,2/07/2020 9:52
+pre-rebase.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\pre-rebase.sample,4898,2/07/2020 9:52,2/07/2020 9:52
+pre-receive.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\pre-receive.sample,544,2/07/2020 9:52,2/07/2020 9:52
+prepare-commit-msg.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\prepare-commit-msg.sample,1492,2/07/2020 9:52,2/07/2020 9:52
+update.sample,C:\C@d3\Fields Client Site Creation\.git\hooks\update.sample,3635,2/07/2020 9:52,2/07/2020 9:52
+exclude,C:\C@d3\Fields Client Site Creation\.git\info\exclude,240,2/07/2020 9:52,2/07/2020 9:52
+.git,C:\C@d3\Fields Client Site Creation\.git,0,2/07/2020 9:52,2/07/2020 14:55
+hooks,C:\C@d3\Fields Client Site Creation\.git\hooks,0,2/07/2020 9:52,2/07/2020 9:52
+info,C:\C@d3\Fields Client Site Creation\.git\info,0,2/07/2020 9:52,2/07/2020 9:52
+objects,C:\C@d3\Fields Client Site Creation\.git\objects,0,2/07/2020 9:52,2/07/2020 14:55
+refs,C:\C@d3\Fields Client Site Creation\.git\refs,0,2/07/2020 9:52,2/07/2020 9:59
+info,C:\C@d3\Fields Client Site Creation\.git\objects\info,0,2/07/2020 9:52,2/07/2020 9:52
+pack,C:\C@d3\Fields Client Site Creation\.git\objects\pack,0,2/07/2020 9:52,2/07/2020 9:52
+heads,C:\C@d3\Fields Client Site Creation\.git\refs\heads,0,2/07/2020 9:52,2/07/2020 14:55
+tags,C:\C@d3\Fields Client Site Creation\.git\refs\tags,0,2/07/2020 9:52,2/07/2020 9:52
+Trigger_Script.ps1,C:\C@d3\Fields Client Site Creation\Trigger_Script.ps1,500,1/07/2020 16:23,2/07/2020 9:50
+testParams.json,C:\C@d3\Fields Client Site Creation\testParams.json,96,1/07/2020 16:17,1/07/2020 16:19
+README.md,C:\C@d3\Fields Client Site Creation\README.md,1337,1/07/2020 14:03,2/07/2020 14:09
+launch.json,C:\C@d3\HeadStart\API\SyncAPI\.vscode\launch.json,1419,1/07/2020 13:17,1/07/2020 13:17
+tasks.json,C:\C@d3\HeadStart\API\SyncAPI\.vscode\tasks.json,1208,1/07/2020 13:17,1/07/2020 13:17
+.vscode,C:\C@d3\HeadStart\API\SyncAPI\.vscode,0,1/07/2020 13:17,1/07/2020 13:17
+config,C:\C@d3\HeadStart\API\SyncAPI\.git\config,303,1/07/2020 13:17,1/07/2020 13:17
+master,C:\C@d3\HeadStart\API\SyncAPI\.git\refs\remotes\origin\master,41,1/07/2020 13:17,1/07/2020 13:17
+master,C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\remotes\origin\master,152,1/07/2020 13:17,1/07/2020 13:17
+remotes,C:\C@d3\HeadStart\API\SyncAPI\.git\refs\remotes,0,1/07/2020 13:17,1/07/2020 13:17
+remotes,C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\remotes,0,1/07/2020 13:17,1/07/2020 13:17
+origin,C:\C@d3\HeadStart\API\SyncAPI\.git\refs\remotes\origin,0,1/07/2020 13:17,1/07/2020 13:17
+origin,C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\remotes\origin,0,1/07/2020 13:17,1/07/2020 13:17
+HEAD,C:\C@d3\HeadStart\API\SyncAPI\.git\logs\HEAD,173,1/07/2020 13:15,1/07/2020 13:15
+ade12c64c8ed36d3591f8e33524a2ce68c17f1,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\07\ade12c64c8ed36d3591f8e33524a2ce68c17f1,157,1/07/2020 13:15,1/07/2020 13:15
+acb87105cee208d8fa6a9fc8b535e64c9bfb31,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0b\acb87105cee208d8fa6a9fc8b535e64c9bfb31,368,1/07/2020 13:15,1/07/2020 13:15
+6910ead8ec49b04cb9c7892907a2681bd8cb8e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0d\6910ead8ec49b04cb9c7892907a2681bd8cb8e,49,1/07/2020 13:15,1/07/2020 13:15
+d29c9813a51231a4a47e9f3ccd1be25bbeb46d,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\19\d29c9813a51231a4a47e9f3ccd1be25bbeb46d,239,1/07/2020 13:15,1/07/2020 13:15
+15eea89a7faef180b33668191fdd8aaafd64a2,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\27\15eea89a7faef180b33668191fdd8aaafd64a2,73,1/07/2020 13:15,1/07/2020 13:15
+52295e004660012a3490489697ccd5bf8d4f21,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\34\52295e004660012a3490489697ccd5bf8d4f21,55,1/07/2020 13:15,1/07/2020 13:15
+968acb674f01027b56ce672ff0186e82a51398,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3e\968acb674f01027b56ce672ff0186e82a51398,1260,1/07/2020 13:15,1/07/2020 13:15
+2c9b9b68f27b76bf61ad6fab1e38924fe70bdd,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\56\2c9b9b68f27b76bf61ad6fab1e38924fe70bdd,47,1/07/2020 13:15,1/07/2020 13:15
+c739d0e06fd431993048ad57ccb596d98abb77,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\59\c739d0e06fd431993048ad57ccb596d98abb77,81,1/07/2020 13:15,1/07/2020 13:15
+96a642c309bb1688ce27f2396d09416a662314,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5a\96a642c309bb1688ce27f2396d09416a662314,46,1/07/2020 13:15,1/07/2020 13:15
+91be4b75420a3a710be3c5cbb743182da26dcf,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6c\91be4b75420a3a710be3c5cbb743182da26dcf,73,1/07/2020 13:15,1/07/2020 13:15
+37e85a60ff740ee4e1b27786c826ae83563896,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7f\37e85a60ff740ee4e1b27786c826ae83563896,46,1/07/2020 13:15,1/07/2020 13:15
+4f861b8a9a791345812f086f1255331c5f6abb,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9a\4f861b8a9a791345812f086f1255331c5f6abb,140,1/07/2020 13:15,1/07/2020 13:15
+08f425b8d7005ce614f783a2b1e06c80c803c2,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a5\08f425b8d7005ce614f783a2b1e06c80c803c2,73,1/07/2020 13:15,1/07/2020 13:15
+991b266097b5f85af9757dd32fe5e55e04e928,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ae\991b266097b5f85af9757dd32fe5e55e04e928,91,1/07/2020 13:15,1/07/2020 13:15
+f40a3ecddfe7f40937cfe48b7cc55f6da4adc9,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b3\f40a3ecddfe7f40937cfe48b7cc55f6da4adc9,112,1/07/2020 13:15,1/07/2020 13:15
+c2778ac6fcae895d52c3b67ce5fca135ee58ca,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ba\c2778ac6fcae895d52c3b67ce5fca135ee58ca,52,1/07/2020 13:15,1/07/2020 13:15
+da33aa0bb8864970ba36958b830e1666e1d1c1,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bb\da33aa0bb8864970ba36958b830e1666e1d1c1,49,1/07/2020 13:15,1/07/2020 13:15
+fdd7b1cce0d18535b39b46ab5171109786a68d,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c7\fdd7b1cce0d18535b39b46ab5171109786a68d,115,1/07/2020 13:15,1/07/2020 13:15
+f2bb16d53b6e9e3c125f031f9713e8aba99dae,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\cc\f2bb16d53b6e9e3c125f031f9713e8aba99dae,71,1/07/2020 13:15,1/07/2020 13:15
+ce3f079161d45a218b2504bc6252a291cccc31,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d4\ce3f079161d45a218b2504bc6252a291cccc31,55,1/07/2020 13:15,1/07/2020 13:15
+c87a773322d264dfc73f031d1cb87630b4aaf1,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d5\c87a773322d264dfc73f031d1cb87630b4aaf1,616,1/07/2020 13:15,1/07/2020 13:15
+c808a6c6c1edfae30bd8f36f6958e67168b69f,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dd\c808a6c6c1edfae30bd8f36f6958e67168b69f,52,1/07/2020 13:15,1/07/2020 13:15
+6b1edbd91533615c0f246de02be9f66402c3af,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e6\6b1edbd91533615c0f246de02be9f66402c3af,52,1/07/2020 13:15,1/07/2020 13:15
+3cdb9ab75e59acdca71b46fdf14ac4f7362ae9,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f2\3cdb9ab75e59acdca71b46fdf14ac4f7362ae9,64,1/07/2020 13:15,1/07/2020 13:15
+f4501dedba8adeb6de734adc0567fa18d4adaf,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f4\f4501dedba8adeb6de734adc0567fa18d4adaf,48,1/07/2020 13:15,1/07/2020 13:15
+717c8e989364d5f3220edd9ea5e757f967ae92,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f8\717c8e989364d5f3220edd9ea5e757f967ae92,71,1/07/2020 13:15,1/07/2020 13:15
+master,C:\C@d3\HeadStart\API\SyncAPI\.git\refs\heads\master,41,1/07/2020 13:15,1/07/2020 13:15
+master,C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\heads\master,173,1/07/2020 13:15,1/07/2020 13:15
+logs,C:\C@d3\HeadStart\API\SyncAPI\.git\logs,0,1/07/2020 13:15,1/07/2020 13:15
+refs,C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs,0,1/07/2020 13:15,1/07/2020 13:17
+07,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\07,0,1/07/2020 13:15,1/07/2020 13:15
+0b,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0b,0,1/07/2020 13:15,1/07/2020 13:15
+19,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\19,0,1/07/2020 13:15,1/07/2020 13:15
+27,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\27,0,1/07/2020 13:15,1/07/2020 13:15
+56,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\56,0,1/07/2020 13:15,1/07/2020 13:15
+59,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\59,0,1/07/2020 13:15,1/07/2020 13:15
+5a,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5a,0,1/07/2020 13:15,1/07/2020 13:15
+6c,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6c,0,1/07/2020 13:15,1/07/2020 13:15
+7f,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7f,0,1/07/2020 13:15,1/07/2020 13:15
+9a,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9a,0,1/07/2020 13:15,1/07/2020 13:15
+ae,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ae,0,1/07/2020 13:15,1/07/2020 13:15
+b3,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b3,0,1/07/2020 13:15,1/07/2020 13:15
+ba,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ba,0,1/07/2020 13:15,1/07/2020 13:15
+bb,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bb,0,1/07/2020 13:15,1/07/2020 13:15
+c7,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c7,0,1/07/2020 13:15,1/07/2020 13:15
+cc,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\cc,0,1/07/2020 13:15,1/07/2020 13:15
+d4,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d4,0,1/07/2020 13:15,1/07/2020 13:15
+d5,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d5,0,1/07/2020 13:15,1/07/2020 13:15
+dd,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dd,0,1/07/2020 13:15,1/07/2020 13:15
+f2,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f2,0,1/07/2020 13:15,1/07/2020 13:15
+f8,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f8,0,1/07/2020 13:15,1/07/2020 13:15
+heads,C:\C@d3\HeadStart\API\SyncAPI\.git\logs\refs\heads,0,1/07/2020 13:15,1/07/2020 13:15
+025001b7992934ead9bdcc73b5888a47ec3ebd,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\03\025001b7992934ead9bdcc73b5888a47ec3ebd,83186,1/07/2020 13:15,1/07/2020 13:15
+f0a047684635e804b61a130cf7015a3fa57148,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0d\f0a047684635e804b61a130cf7015a3fa57148,56,1/07/2020 13:15,1/07/2020 13:15
+61b88aa8e37c4d6c1c9fb20e82cc205239e2c1,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\1e\61b88aa8e37c4d6c1c9fb20e82cc205239e2c1,26211,1/07/2020 13:15,1/07/2020 13:15
+a325c1abe08b2104e4a29dede3f2020147cc3b,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\25\a325c1abe08b2104e4a29dede3f2020147cc3b,1650,1/07/2020 13:15,1/07/2020 13:15
+bedab819ef1631d37d6e87ef9a716c545a105e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\34\bedab819ef1631d37d6e87ef9a716c545a105e,57,1/07/2020 13:15,1/07/2020 13:15
+eb9f938dcfab415422f844fc023266d10bc2be,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3f\eb9f938dcfab415422f844fc023266d10bc2be,14527,1/07/2020 13:15,1/07/2020 13:15
+78067772df4dd5cff8d9116f566219f062a410,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\41\78067772df4dd5cff8d9116f566219f062a410,47744,1/07/2020 13:15,1/07/2020 13:15
+9eec804a7a5d6633725d9feef67d32a9acea01,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\51\9eec804a7a5d6633725d9feef67d32a9acea01,472,1/07/2020 13:15,1/07/2020 13:15
+cfaa19b16f3769b2bfc33db3b5c0053c16fdba,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\53\cfaa19b16f3769b2bfc33db3b5c0053c16fdba,214,1/07/2020 13:15,1/07/2020 13:15
+27f24307cd62afb14112da06a91c225ec37227,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\54\27f24307cd62afb14112da06a91c225ec37227,291,1/07/2020 13:15,1/07/2020 13:15
+c21acbfc299668092f81b0d66fa9691eb4a45e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5f\c21acbfc299668092f81b0d66fa9691eb4a45e,76578,1/07/2020 13:15,1/07/2020 13:15
+54b34f013eae16c5fd13ecd92950adf0dd546c,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\62\54b34f013eae16c5fd13ecd92950adf0dd546c,441082,1/07/2020 13:15,1/07/2020 13:15
+f52048f1001b26d0170aaf7074e9a781d55113,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6a\f52048f1001b26d0170aaf7074e9a781d55113,46710,1/07/2020 13:15,1/07/2020 13:15
+74736a0faadb465e40a729f535386666ed86e6,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6b\74736a0faadb465e40a729f535386666ed86e6,55,1/07/2020 13:15,1/07/2020 13:15
+e1e9494f6b7dd8212d85f9df4e965e98dd9eda,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6b\e1e9494f6b7dd8212d85f9df4e965e98dd9eda,163,1/07/2020 13:15,1/07/2020 13:15
+536ac4f29897fb42621113cab9c19675147c73,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\73\536ac4f29897fb42621113cab9c19675147c73,18770,1/07/2020 13:15,1/07/2020 13:15
+9ded874111f33da8eb836fb498d76b1a19b6da,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\77\9ded874111f33da8eb836fb498d76b1a19b6da,476611,1/07/2020 13:15,1/07/2020 13:15
+21d22ff436786dae893f63a86622f2b144a6d2,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7b\21d22ff436786dae893f63a86622f2b144a6d2,52,1/07/2020 13:15,1/07/2020 13:15
+8f9d86c86982a7da8b53e85eee1b24dc117f51,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7b\8f9d86c86982a7da8b53e85eee1b24dc117f51,86776,1/07/2020 13:15,1/07/2020 13:15
+0b114d665b65001c029b7e75f911acea06323f,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7d\0b114d665b65001c029b7e75f911acea06323f,169458,1/07/2020 13:15,1/07/2020 13:15
+e2357dd4bed707487965e2a3eb0081dd53da0a,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\80\e2357dd4bed707487965e2a3eb0081dd53da0a,140,1/07/2020 13:15,1/07/2020 13:15
+8ba735bb4f3588d59bffc85d2716cf54edf462,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\8f\8ba735bb4f3588d59bffc85d2716cf54edf462,56,1/07/2020 13:15,1/07/2020 13:15
+8dfe1a6310302587a2d0c0111d81b250eb4105,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ad\8dfe1a6310302587a2d0c0111d81b250eb4105,162,1/07/2020 13:15,1/07/2020 13:15
+e22b117cc860fe7765a89d58a9f83e4e27657a,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\af\e22b117cc860fe7765a89d58a9f83e4e27657a,350,1/07/2020 13:15,1/07/2020 13:15
+6ed9c722d355680529e15cd61055ccf8e8cbad,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b0\6ed9c722d355680529e15cd61055ccf8e8cbad,719,1/07/2020 13:15,1/07/2020 13:15
+a05a5bcca3694a6c95c3bf2c31a625020351b3,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c1\a05a5bcca3694a6c95c3bf2c31a625020351b3,88370,1/07/2020 13:15,1/07/2020 13:15
+b68d29fdcfffd65f1dfe4ea3e6122c19917456,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d2\b68d29fdcfffd65f1dfe4ea3e6122c19917456,754,1/07/2020 13:15,1/07/2020 13:15
+8491e57679a0ec458f142c7211587de7a407dd,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e4\8491e57679a0ec458f142c7211587de7a407dd,6495,1/07/2020 13:15,1/07/2020 13:15
+7fb59fe7ac605f034b6c9d8a471f1a21e1d252,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e5\7fb59fe7ac605f034b6c9d8a471f1a21e1d252,19395,1/07/2020 13:15,1/07/2020 13:15
+9de29bb2d1d6434b8b29ae775ad8c2e48c5391,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391,15,1/07/2020 13:15,1/07/2020 13:15
+7b0aca64c9922aa3b75de03a626425b8107f9f,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ef\7b0aca64c9922aa3b75de03a626425b8107f9f,41762,1/07/2020 13:15,1/07/2020 13:15
+dcae5da0570cfad5dfdc2c164039165c9e4216,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fc\dcae5da0570cfad5dfdc2c164039165c9e4216,25755,1/07/2020 13:15,1/07/2020 13:15
+03,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\03,0,1/07/2020 13:15,1/07/2020 13:15
+0d,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\0d,0,1/07/2020 13:15,1/07/2020 13:15
+1e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\1e,0,1/07/2020 13:15,1/07/2020 13:15
+25,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\25,0,1/07/2020 13:15,1/07/2020 13:15
+34,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\34,0,1/07/2020 13:15,1/07/2020 13:15
+3f,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3f,0,1/07/2020 13:15,1/07/2020 13:15
+41,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\41,0,1/07/2020 13:15,1/07/2020 13:15
+51,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\51,0,1/07/2020 13:15,1/07/2020 13:15
+53,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\53,0,1/07/2020 13:15,1/07/2020 13:15
+54,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\54,0,1/07/2020 13:15,1/07/2020 13:15
+5f,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5f,0,1/07/2020 13:15,1/07/2020 13:15
+62,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\62,0,1/07/2020 13:15,1/07/2020 13:15
+6a,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6a,0,1/07/2020 13:15,1/07/2020 13:15
+6b,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6b,0,1/07/2020 13:15,1/07/2020 13:15
+73,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\73,0,1/07/2020 13:15,1/07/2020 13:15
+7b,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7b,0,1/07/2020 13:15,1/07/2020 13:15
+7d,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\7d,0,1/07/2020 13:15,1/07/2020 13:15
+80,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\80,0,1/07/2020 13:15,1/07/2020 13:15
+8f,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\8f,0,1/07/2020 13:15,1/07/2020 13:15
+ad,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ad,0,1/07/2020 13:15,1/07/2020 13:15
+af,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\af,0,1/07/2020 13:15,1/07/2020 13:15
+b0,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b0,0,1/07/2020 13:15,1/07/2020 13:15
+c1,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c1,0,1/07/2020 13:15,1/07/2020 13:15
+d2,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d2,0,1/07/2020 13:15,1/07/2020 13:15
+e4,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e4,0,1/07/2020 13:15,1/07/2020 13:15
+e6,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e6,0,1/07/2020 13:15,1/07/2020 13:15
+ef,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ef,0,1/07/2020 13:15,1/07/2020 13:15
+fc,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fc,0,1/07/2020 13:15,1/07/2020 13:15
+index,C:\C@d3\HeadStart\API\SyncAPI\.git\index,9562,1/07/2020 13:15,1/07/2020 13:15
+8358a963fab49af9a0ad1288ea6ff1453b9759,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\08\8358a963fab49af9a0ad1288ea6ff1453b9759,24574,1/07/2020 13:15,1/07/2020 13:15
+0f49141b7010c56e14ac242bf3742e8981f452,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\14\0f49141b7010c56e14ac242bf3742e8981f452,65380,1/07/2020 13:15,1/07/2020 13:15
+8fb3793970cd4ba39adc46ec85ee5b2a2b1eb6,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\30\8fb3793970cd4ba39adc46ec85ee5b2a2b1eb6,14073,1/07/2020 13:15,1/07/2020 13:15
+245c63c678740991ba724645a061e765436110,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\32\245c63c678740991ba724645a061e765436110,199,1/07/2020 13:15,1/07/2020 13:15
+bfeb915b634b699bad5ed877577a762230ca92,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\33\bfeb915b634b699bad5ed877577a762230ca92,525,1/07/2020 13:15,1/07/2020 13:15
+077cd8e6d81906e3f514da1d53a1b30b3244f5,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\37\077cd8e6d81906e3f514da1d53a1b30b3244f5,11759,1/07/2020 13:15,1/07/2020 13:15
+bfa649d26c32e39ab77230b2991ecf228f315d,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3e\bfa649d26c32e39ab77230b2991ecf228f315d,36463,1/07/2020 13:15,1/07/2020 13:15
+52ecd8fade48b8c8f03feb809182ea21778808,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\47\52ecd8fade48b8c8f03feb809182ea21778808,11485,1/07/2020 13:15,1/07/2020 13:15
+3a31b85916e50c70e1c611f0d2ff914a3fc0a8,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4a\3a31b85916e50c70e1c611f0d2ff914a3fc0a8,20381,1/07/2020 13:15,1/07/2020 13:15
+9a074f8f22aaf7a7d83b14eaac405c8895226a,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4e\9a074f8f22aaf7a7d83b14eaac405c8895226a,15373,1/07/2020 13:15,1/07/2020 13:15
+b80addc30a8dd777ad86d2a069d1ff1ffad836,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\50\b80addc30a8dd777ad86d2a069d1ff1ffad836,1351,1/07/2020 13:15,1/07/2020 13:15
+c5d3927d0ce76b47491f0e70da386d044bb739,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5b\c5d3927d0ce76b47491f0e70da386d044bb739,24278,1/07/2020 13:15,1/07/2020 13:15
+749daca3b7e9a23f142572dbd51be3348be9ff,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6d\749daca3b7e9a23f142572dbd51be3348be9ff,8297,1/07/2020 13:15,1/07/2020 13:15
+973d5873b49eb56e5531d8be6a81f519b432ff,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\77\973d5873b49eb56e5531d8be6a81f519b432ff,321,1/07/2020 13:15,1/07/2020 13:15
+20ba3fe49619f5520dfb258324bc7a5d347960,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\82\20ba3fe49619f5520dfb258324bc7a5d347960,90465,1/07/2020 13:15,1/07/2020 13:15
+a8b8dbe3f495f9aba27f4bcdbcdce1080c9853,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\84\a8b8dbe3f495f9aba27f4bcdbcdce1080c9853,14063,1/07/2020 13:15,1/07/2020 13:15
+83e0fc1c5e2795ccfde0c771c6d66c88ef4a42,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\89\83e0fc1c5e2795ccfde0c771c6d66c88ef4a42,116,1/07/2020 13:15,1/07/2020 13:15
+6b78f90f811f513d99a06118b3a12ec61fad91,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9e\6b78f90f811f513d99a06118b3a12ec61fad91,178,1/07/2020 13:15,1/07/2020 13:15
+b7ff99a28fe128bc3cf25b7247e8b6d2e67914,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a5\b7ff99a28fe128bc3cf25b7247e8b6d2e67914,8340,1/07/2020 13:15,1/07/2020 13:15
+4e35fd7230f6f8b07a324bb10a56df9f2d1049,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a9\4e35fd7230f6f8b07a324bb10a56df9f2d1049,4191,1/07/2020 13:15,1/07/2020 13:15
+9171dfe819730af5f39ffab49eb3c409163c2e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ab\9171dfe819730af5f39ffab49eb3c409163c2e,81335,1/07/2020 13:15,1/07/2020 13:15
+8e1b547f1828d06ab53a27c995649fd3055340,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b7\8e1b547f1828d06ab53a27c995649fd3055340,361,1/07/2020 13:15,1/07/2020 13:15
+29e5e79c20cefbf53682092a79705f1e25a00e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bc\29e5e79c20cefbf53682092a79705f1e25a00e,120000,1/07/2020 13:15,1/07/2020 13:15
+a07c2200bcca3cedd1557b6f1037a77e828bc0,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bd\a07c2200bcca3cedd1557b6f1037a77e828bc0,18274,1/07/2020 13:15,1/07/2020 13:15
+889b5a91045c0ac91f7cdfa93e38abaed25750,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c0\889b5a91045c0ac91f7cdfa93e38abaed25750,545,1/07/2020 13:15,1/07/2020 13:15
+1f0d5d5af380e9b19fb9d09538437806263d79,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ce\1f0d5d5af380e9b19fb9d09538437806263d79,17745,1/07/2020 13:15,1/07/2020 13:15
+d9a9bff6fd6f3ee7ea00de958f135a4a28c6e6,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d9\d9a9bff6fd6f3ee7ea00de958f135a4a28c6e6,133,1/07/2020 13:15,1/07/2020 13:15
+e513b19a3d70bf0f5c03a0b31189bda990b377,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dc\e513b19a3d70bf0f5c03a0b31189bda990b377,570634,1/07/2020 13:15,1/07/2020 13:15
+897691fc7bd409972157060327914c8b4a75e3,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\df\897691fc7bd409972157060327914c8b4a75e3,21803,1/07/2020 13:15,1/07/2020 13:15
+400386edae4c86df65459c5dc7f8a9512c89b9,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e5\400386edae4c86df65459c5dc7f8a9512c89b9,467235,1/07/2020 13:15,1/07/2020 13:15
+72a282488211ea5b7809e3b33c0c36c0eb6515,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f4\72a282488211ea5b7809e3b33c0c36c0eb6515,333199,1/07/2020 13:15,1/07/2020 13:15
+b8f1fabf13fec9ad2bd73f67198cbedbc6ef52,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fd\b8f1fabf13fec9ad2bd73f67198cbedbc6ef52,18396,1/07/2020 13:15,1/07/2020 13:15
+08,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\08,0,1/07/2020 13:15,1/07/2020 13:15
+14,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\14,0,1/07/2020 13:15,1/07/2020 13:15
+30,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\30,0,1/07/2020 13:15,1/07/2020 13:15
+32,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\32,0,1/07/2020 13:15,1/07/2020 13:15
+33,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\33,0,1/07/2020 13:15,1/07/2020 13:15
+37,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\37,0,1/07/2020 13:15,1/07/2020 13:15
+3e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\3e,0,1/07/2020 13:15,1/07/2020 13:15
+47,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\47,0,1/07/2020 13:15,1/07/2020 13:15
+4a,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4a,0,1/07/2020 13:15,1/07/2020 13:15
+4e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4e,0,1/07/2020 13:15,1/07/2020 13:15
+50,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\50,0,1/07/2020 13:15,1/07/2020 13:15
+5b,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\5b,0,1/07/2020 13:15,1/07/2020 13:15
+6d,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\6d,0,1/07/2020 13:15,1/07/2020 13:15
+77,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\77,0,1/07/2020 13:15,1/07/2020 13:15
+82,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\82,0,1/07/2020 13:15,1/07/2020 13:15
+84,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\84,0,1/07/2020 13:15,1/07/2020 13:15
+89,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\89,0,1/07/2020 13:15,1/07/2020 13:15
+9e,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\9e,0,1/07/2020 13:15,1/07/2020 13:15
+a5,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a5,0,1/07/2020 13:15,1/07/2020 13:15
+a9,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\a9,0,1/07/2020 13:15,1/07/2020 13:15
+ab,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ab,0,1/07/2020 13:15,1/07/2020 13:15
+b7,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\b7,0,1/07/2020 13:15,1/07/2020 13:15
+bc,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bc,0,1/07/2020 13:15,1/07/2020 13:15
+bd,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\bd,0,1/07/2020 13:15,1/07/2020 13:15
+c0,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\c0,0,1/07/2020 13:15,1/07/2020 13:15
+ce,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\ce,0,1/07/2020 13:15,1/07/2020 13:15
+d9,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\d9,0,1/07/2020 13:15,1/07/2020 13:15
+dc,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\dc,0,1/07/2020 13:15,1/07/2020 13:15
+df,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\df,0,1/07/2020 13:15,1/07/2020 13:15
+e5,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\e5,0,1/07/2020 13:15,1/07/2020 13:15
+f4,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\f4,0,1/07/2020 13:15,1/07/2020 13:15
+fd,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\fd,0,1/07/2020 13:15,1/07/2020 13:15
+COMMIT_EDITMSG,C:\C@d3\HeadStart\API\SyncAPI\.git\COMMIT_EDITMSG,18,1/07/2020 13:14,1/07/2020 13:15
+825dc642cb6eb9a060e54bf8d69288fbee4904,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4b\825dc642cb6eb9a060e54bf8d69288fbee4904,15,1/07/2020 13:14,1/07/2020 13:14
+4b,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\4b,0,1/07/2020 13:14,1/07/2020 13:14
+description,C:\C@d3\HeadStart\API\SyncAPI\.git\description,73,1/07/2020 13:13,1/07/2020 13:13
+HEAD,C:\C@d3\HeadStart\API\SyncAPI\.git\HEAD,23,1/07/2020 13:13,1/07/2020 13:13
+applypatch-msg.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\applypatch-msg.sample,478,1/07/2020 13:13,1/07/2020 13:13
+commit-msg.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\commit-msg.sample,896,1/07/2020 13:13,1/07/2020 13:13
+fsmonitor-watchman.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\fsmonitor-watchman.sample,4655,1/07/2020 13:13,1/07/2020 13:13
+post-update.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\post-update.sample,189,1/07/2020 13:13,1/07/2020 13:13
+pre-applypatch.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-applypatch.sample,424,1/07/2020 13:13,1/07/2020 13:13
+pre-commit.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-commit.sample,1643,1/07/2020 13:13,1/07/2020 13:13
+pre-merge-commit.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-merge-commit.sample,416,1/07/2020 13:13,1/07/2020 13:13
+pre-push.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-push.sample,1348,1/07/2020 13:13,1/07/2020 13:13
+pre-rebase.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-rebase.sample,4898,1/07/2020 13:13,1/07/2020 13:13
+pre-receive.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\pre-receive.sample,544,1/07/2020 13:13,1/07/2020 13:13
+prepare-commit-msg.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\prepare-commit-msg.sample,1492,1/07/2020 13:13,1/07/2020 13:13
+update.sample,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks\update.sample,3635,1/07/2020 13:13,1/07/2020 13:13
+exclude,C:\C@d3\HeadStart\API\SyncAPI\.git\info\exclude,240,1/07/2020 13:13,1/07/2020 13:13
+.git,C:\C@d3\HeadStart\API\SyncAPI\.git,0,1/07/2020 13:13,1/07/2020 13:17
+hooks,C:\C@d3\HeadStart\API\SyncAPI\.git\hooks,0,1/07/2020 13:13,1/07/2020 13:13
+info,C:\C@d3\HeadStart\API\SyncAPI\.git\info,0,1/07/2020 13:13,1/07/2020 13:13
+objects,C:\C@d3\HeadStart\API\SyncAPI\.git\objects,0,1/07/2020 13:13,1/07/2020 13:15
+refs,C:\C@d3\HeadStart\API\SyncAPI\.git\refs,0,1/07/2020 13:13,1/07/2020 13:17
+info,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\info,0,1/07/2020 13:13,1/07/2020 13:13
+pack,C:\C@d3\HeadStart\API\SyncAPI\.git\objects\pack,0,1/07/2020 13:13,1/07/2020 13:13
+heads,C:\C@d3\HeadStart\API\SyncAPI\.git\refs\heads,0,1/07/2020 13:13,1/07/2020 13:15
+tags,C:\C@d3\HeadStart\API\SyncAPI\.git\refs\tags,0,1/07/2020 13:13,1/07/2020 13:13
+Models,C:\C@d3\HeadStart\API\SyncAPI\Models,0,1/07/2020 12:00,1/07/2020 12:00
+Fields Client Site Creation,C:\C@d3\Fields Client Site Creation,0,1/07/2020 11:56,2/07/2020 13:42
+appsettings.Development.json,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json,162,1/07/2020 11:34,1/07/2020 11:20
+appsettings.json,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\appsettings.json,192,1/07/2020 11:34,1/07/2020 11:20
+Microsoft.Bcl.AsyncInterfaces.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll,14720,1/07/2020 11:34,14/04/2020 22:39
+Microsoft.Bcl.HashCode.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll,14440,1/07/2020 11:34,15/11/2019 8:38
+Microsoft.Data.SqlClient.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll,330712,1/07/2020 11:34,26/09/2019 20:43
+Microsoft.EntityFrameworkCore.Abstractions.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll,20864,1/07/2020 11:34,21/05/2020 2:30
+Microsoft.EntityFrameworkCore.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll,1555832,1/07/2020 11:34,21/05/2020 2:31
+Microsoft.EntityFrameworkCore.InMemory.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll,142200,1/07/2020 11:34,21/05/2020 2:31
+Microsoft.EntityFrameworkCore.Relational.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll,859000,1/07/2020 11:34,21/05/2020 2:31
+Microsoft.EntityFrameworkCore.SqlServer.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll,289656,1/07/2020 11:34,21/05/2020 2:31
+Microsoft.Extensions.Caching.Abstractions.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll,26504,1/07/2020 11:34,20/05/2020 23:55
+Microsoft.Extensions.Caching.Memory.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll,32640,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.Configuration.Abstractions.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll,21376,1/07/2020 11:34,20/05/2020 23:55
+Microsoft.Extensions.Configuration.Binder.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll,25480,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.Configuration.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll,27528,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.DependencyInjection.Abstractions.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll,37760,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.DependencyInjection.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll,72568,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.Logging.Abstractions.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll,48504,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.Logging.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll,34168,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.Options.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll,50560,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Extensions.Primitives.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll,38792,1/07/2020 11:34,20/05/2020 23:56
+Microsoft.Identity.Client.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll,1187176,1/07/2020 11:34,29/04/2019 22:04
+SyncAPI.deps.json,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.deps.json,166789,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.dll,9216,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.exe,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.exe,174592,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.pdb,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.pdb,2084,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.runtimeconfig.dev.json,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.runtimeconfig.dev.json,188,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.runtimeconfig.json,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\SyncAPI.runtimeconfig.json,224,1/07/2020 11:34,3/07/2020 9:45
+System.Collections.Immutable.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll,180096,1/07/2020 11:34,14/04/2020 22:38
+System.Configuration.ConfigurationManager.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll,382096,1/07/2020 11:34,15/05/2018 13:29
+System.Diagnostics.DiagnosticSource.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll,51584,1/07/2020 11:34,14/04/2020 22:48
+System.Runtime.Caching.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll,36496,1/07/2020 11:34,15/05/2018 13:29
+System.Security.Cryptography.ProtectedData.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll,25232,1/07/2020 11:34,15/05/2018 13:29
+SyncAPI.csproj.CopyComplete,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csproj.CopyComplete,0,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.csproj.FileListAbsolute.txt,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csproj.FileListAbsolute.txt,9678,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.dll,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.dll,9216,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.genruntimeconfig.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.genruntimeconfig.cache,42,1/07/2020 11:34,1/07/2020 11:34
+SyncAPI.pdb,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.pdb,2084,1/07/2020 11:34,3/07/2020 9:45
+SyncAPI.RazorTargetAssemblyInfo.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.RazorTargetAssemblyInfo.cache,42,1/07/2020 11:34,1/07/2020 11:34
+launchSettings.json,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json,817,1/07/2020 11:34,1/07/2020 11:20
+SyncAPI.StaticWebAssets.Manifest.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\staticwebassets\SyncAPI.StaticWebAssets.Manifest.cache,0,1/07/2020 11:34,1/07/2020 11:34
+SyncAPI.StaticWebAssets.xml,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\staticwebassets\SyncAPI.StaticWebAssets.xml,36,1/07/2020 11:34,1/07/2020 11:34
+sni.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll,174224,1/07/2020 11:34,12/07/2017 11:24
+sni.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll,160040,1/07/2020 11:34,12/07/2017 11:24
+sni.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll,136488,1/07/2020 11:34,12/07/2017 11:24
+System.Runtime.Caching.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll,91792,1/07/2020 11:34,15/05/2018 13:29
+Microsoft.Data.SqlClient.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll,1117144,1/07/2020 11:34,26/09/2019 20:43
+System.Runtime.Caching.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll,93832,1/07/2020 11:34,15/05/2018 13:29
+Microsoft.Data.SqlClient.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll,1227736,1/07/2020 11:34,26/09/2019 20:43
+System.Security.Cryptography.ProtectedData.dll,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll,32912,1/07/2020 11:34,15/05/2018 13:29
+Properties,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\Properties,0,1/07/2020 11:34,1/07/2020 11:34
+runtimes,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes,0,1/07/2020 11:34,1/07/2020 11:34
+staticwebassets,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\staticwebassets,0,1/07/2020 11:34,1/07/2020 11:34
+unix,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix,0,1/07/2020 11:34,1/07/2020 11:34
+win,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win,0,1/07/2020 11:34,1/07/2020 11:34
+win-arm64,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64,0,1/07/2020 11:34,1/07/2020 11:34
+win-x64,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64,0,1/07/2020 11:34,1/07/2020 11:34
+win-x86,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86,0,1/07/2020 11:34,1/07/2020 11:34
+lib,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib,0,1/07/2020 11:34,1/07/2020 11:34
+lib,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib,0,1/07/2020 11:34,1/07/2020 11:34
+native,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native,0,1/07/2020 11:34,1/07/2020 11:34
+native,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native,0,1/07/2020 11:34,1/07/2020 11:34
+native,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native,0,1/07/2020 11:34,1/07/2020 11:34
+netcoreapp2.0,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0,0,1/07/2020 11:34,1/07/2020 11:34
+netcoreapp2.1,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1,0,1/07/2020 11:34,1/07/2020 11:34
+netcoreapp2.0,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0,0,1/07/2020 11:34,1/07/2020 11:34
+netcoreapp2.1,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1,0,1/07/2020 11:34,1/07/2020 11:34
+netstandard2.0,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0,0,1/07/2020 11:34,1/07/2020 11:34
+SyncAPI.csproj.CoreCompileInputs.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csproj.CoreCompileInputs.cache,42,1/07/2020 11:34,1/07/2020 11:34
+SyncAPI.MvcApplicationPartsAssemblyInfo.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.MvcApplicationPartsAssemblyInfo.cache,0,1/07/2020 11:34,3/07/2020 9:45
+project.razor.json,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\project.razor.json,818865,1/07/2020 11:24,1/07/2020 13:17
+".NETCoreApp,Version=v3.1.AssemblyAttributes.cs","C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs",190,1/07/2020 11:24,1/07/2020 11:24
+SyncAPI.AssemblyInfo.cs,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.AssemblyInfo.cs,994,1/07/2020 11:24,1/07/2020 11:24
+SyncAPI.AssemblyInfoInputs.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.AssemblyInfoInputs.cache,42,1/07/2020 11:24,1/07/2020 11:24
+SyncAPI.csprojAssemblyReference.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.csprojAssemblyReference.cache,424,1/07/2020 11:24,3/07/2020 10:02
+SyncAPI.assets.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1\SyncAPI.assets.cache,33735,1/07/2020 11:22,3/07/2020 9:44
+bin,C:\C@d3\HeadStart\API\SyncAPI\bin,0,1/07/2020 11:22,3/07/2020 10:01
+Debug,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug,0,1/07/2020 11:22,1/07/2020 11:22
+Debug,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug,0,1/07/2020 11:22,1/07/2020 11:22
+netcoreapp3.1,C:\C@d3\HeadStart\API\SyncAPI\bin\Debug\netcoreapp3.1,0,1/07/2020 11:22,1/07/2020 11:34
+netcoreapp3.1,C:\C@d3\HeadStart\API\SyncAPI\obj\Debug\netcoreapp3.1,0,1/07/2020 11:22,3/07/2020 10:02
+project.assets.json,C:\C@d3\HeadStart\API\SyncAPI\obj\project.assets.json,221777,1/07/2020 11:20,3/07/2020 9:44
+project.nuget.cache,C:\C@d3\HeadStart\API\SyncAPI\obj\project.nuget.cache,12527,1/07/2020 11:20,3/07/2020 9:44
+SyncAPI.csproj.nuget.dgspec.json,C:\C@d3\HeadStart\API\SyncAPI\obj\SyncAPI.csproj.nuget.dgspec.json,2300,1/07/2020 11:20,3/07/2020 9:44
+SyncAPI.csproj.nuget.g.props,C:\C@d3\HeadStart\API\SyncAPI\obj\SyncAPI.csproj.nuget.g.props,1125,1/07/2020 11:20,1/07/2020 11:20
+SyncAPI.csproj.nuget.g.targets,C:\C@d3\HeadStart\API\SyncAPI\obj\SyncAPI.csproj.nuget.g.targets,294,1/07/2020 11:20,1/07/2020 11:20
+obj,C:\C@d3\HeadStart\API\SyncAPI\obj,0,1/07/2020 11:20,3/07/2020 10:01
+appsettings.Development.json,C:\C@d3\HeadStart\API\SyncAPI\appsettings.Development.json,162,1/07/2020 11:20,1/07/2020 11:20
+appsettings.json,C:\C@d3\HeadStart\API\SyncAPI\appsettings.json,192,1/07/2020 11:20,1/07/2020 11:20
+Program.cs,C:\C@d3\HeadStart\API\SyncAPI\Program.cs,715,1/07/2020 11:20,1/07/2020 11:20
+Startup.cs,C:\C@d3\HeadStart\API\SyncAPI\Startup.cs,1459,1/07/2020 11:20,1/07/2020 11:20
+SyncAPI.csproj,C:\C@d3\HeadStart\API\SyncAPI\SyncAPI.csproj,432,1/07/2020 11:20,3/07/2020 9:45
+WeatherForecast.cs,C:\C@d3\HeadStart\API\SyncAPI\WeatherForecast.cs,303,1/07/2020 11:20,1/07/2020 11:20
+WeatherForecastController.cs,C:\C@d3\HeadStart\API\SyncAPI\Controllers\WeatherForecastController.cs,1180,1/07/2020 11:20,1/07/2020 11:20
+launchSettings.json,C:\C@d3\HeadStart\API\SyncAPI\Properties\launchSettings.json,817,1/07/2020 11:20,1/07/2020 11:20
+Controllers,C:\C@d3\HeadStart\API\SyncAPI\Controllers,0,1/07/2020 11:20,1/07/2020 12:01
+Properties,C:\C@d3\HeadStart\API\SyncAPI\Properties,0,1/07/2020 11:20,1/07/2020 11:20
+SyncAPI,C:\C@d3\HeadStart\API\SyncAPI,0,1/07/2020 11:20,3/07/2020 10:02
+API,C:\C@d3\HeadStart\API,0,1/07/2020 11:20,1/07/2020 11:20
+HeadStart,C:\C@d3\HeadStart,0,1/07/2020 11:19,1/07/2020 11:20
+Create_Client_Site.ps1,C:\C@d3\Fields Client Site Creation\Create_Client_Site.ps1,7189,29/06/2020 1:35,2/07/2020 14:12
+FIELDSTemplate.pnp,C:\C@d3\Fields Client Site Creation\FIELDSTemplate.pnp,77917,28/06/2020 9:01,1/07/2020 11:56
+AlphaFS.2.2.6.0.chm,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\AlphaFS.2.2.6.0.chm,2750223,18/08/2018 18:39,3/07/2020 10:28
+AlphaFS.dll,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452\AlphaFS.dll,367616,18/08/2018 18:36,3/07/2020 10:28
+AlphaFS.pdb,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452\AlphaFS.pdb,1152512,18/08/2018 18:36,3/07/2020 10:28
+AlphaFS.xml,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net452\AlphaFS.xml,2366018,18/08/2018 18:36,3/07/2020 10:28
+AlphaFS.dll,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451\AlphaFS.dll,367616,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.pdb,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451\AlphaFS.pdb,1152512,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.xml,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net451\AlphaFS.xml,2366018,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.dll,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45\AlphaFS.dll,367616,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.pdb,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45\AlphaFS.pdb,1152512,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.xml,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net45\AlphaFS.xml,2366018,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.dll,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40\AlphaFS.dll,366592,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.pdb,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40\AlphaFS.pdb,1152512,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.xml,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net40\AlphaFS.xml,2366018,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.dll,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35\AlphaFS.dll,365568,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.pdb,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35\AlphaFS.pdb,1152512,18/08/2018 18:35,3/07/2020 10:28
+AlphaFS.xml,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\Lib\Net35\AlphaFS.xml,2365334,18/08/2018 18:35,3/07/2020 10:28
+CHANGELOG.md,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\CHANGELOG.md,28732,18/08/2018 18:26,3/07/2020 10:28
+README.md,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\README.md,3058,18/08/2018 18:26,3/07/2020 10:28
+LICENSE.md,C:\C@d3\ScanFolder\AlphaFS.2.2.6.0\LICENSE.md,1172,9/05/2018 19:12,3/07/2020 10:28
